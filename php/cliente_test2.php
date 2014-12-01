@@ -192,60 +192,60 @@ session_start();
 			<div class="preguntas">
 			Cuando dos de tus amigos están “peleados” por algún motivo o razón, ¿cuál es tu postura?
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a) Sabes realmente lo que paso, por eso apoyas al que encuentras tiene la razón.<br>
-			<input type=radio name="pregunta16" value="0">b)	Mantienes cierta distancia del conflicto, es mejor que ellos solucionen sus diferencias.<br>
-			<input type=radio name="pregunta16" value="0">c)	Intentas de alguna forma que se vuelvan a llevar bien, crees que no hay razón para que estén distanciados.<br>
+			<input type=radio name="pregunta17" value="1" checked="checked">a) Sabes realmente lo que paso, por eso apoyas al que encuentras tiene la razón.<br>
+			<input type=radio name="pregunta17" value="0">b)	Mantienes cierta distancia del conflicto, es mejor que ellos solucionen sus diferencias.<br>
+			<input type=radio name="pregunta17" value="0">c)	Intentas de alguna forma que se vuelvan a llevar bien, crees que no hay razón para que estén distanciados.<br>
 			</div>
 			<br>
 
 			<div class="preguntas">
 			Frente a un problema que lo afecte en su vida diaria como actua
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a) Trata de resolver el problema rapidamente.<br>
-			<input type=radio name="pregunta16" value="0">b)	Entinede las causas antes de resolverlo.<br>
-			<input type=radio name="pregunta16" value="0">c)	Evade los problemas.<br>
+			<input type=radio name="pregunta18" value="1" checked="checked">a) Trata de resolver el problema rapidamente.<br>
+			<input type=radio name="pregunta18" value="0">b)	Entinede las causas antes de resolverlo.<br>
+			<input type=radio name="pregunta18" value="0">c)	Evade los problemas.<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
 			Que opina sobre el crecimiento de la comunidad Haitiana en Chile
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a) Esta bien se les ayuda para que tengan una vida mejor.<br>
-			<input type=radio name="pregunta16" value="0">b)	No me gusta, existe menos trabajo y opurtunidades para las personas cchilenas.<br>
-			<input type=radio name="pregunta16" value="0">c)	Me es indiferente<br>
+			<input type=radio name="pregunta19" value="1" checked="checked">a) Esta bien se les ayuda para que tengan una vida mejor.<br>
+			<input type=radio name="pregunta19" value="0">b)	No me gusta, existe menos trabajo y opurtunidades para las personas cchilenas.<br>
+			<input type=radio name="pregunta19" value="0">c)	Me es indiferente<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
 			¿Cree en el destino?
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
-			<input type=radio name="pregunta16" value="0">b)	Si, Dios dirige todo<br>
-			<input type=radio name="pregunta16" value="0">c)	No, cada uno crea su destino.<br>
+			<input type=radio name="pregunta20" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
+			<input type=radio name="pregunta20" value="0">b)	Si, Dios dirige todo<br>
+			<input type=radio name="pregunta20" value="0">c)	No, cada uno crea su destino.<br>
 			</div>
 			<br>
 			
-			//Desarrollador
+			//Desarrollador 21-24
+			<div class="preguntas">
+			Si tubiera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demas, que haria usted:
+			<br> <br>
+			<input type=radio name="pregunta21" value="1" checked="checked">a)Lo despide<br>
+			<input type=radio name="pregunta21" value="0">b) lo apoya e incentiva a seguir<br>
+			<input type=radio name="pregunta21" value="0">c)	Le da un utimatum<br>
+			</div>
+			<br>
+			
+			//Disiplinado 25-28
 			<div class="preguntas">
 			
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
-			<input type=radio name="pregunta16" value="0">b)	Si, Dios dirige todo<br>
-			<input type=radio name="pregunta16" value="0">c)	No, cada uno crea su destino.<br>
+			<input type=radio name="pregunta16" value="1" checked="checked">a) <br>
+			<input type=radio name="pregunta16" value="0">b)	<br>
+			<input type=radio name="pregunta16" value="0">c)	<br>
 			</div>
 			<br>
 			
-			//Disiplinado
-			<div class="preguntas">
-			
-			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
-			<input type=radio name="pregunta16" value="0">b)	Si, Dios dirige todo<br>
-			<input type=radio name="pregunta16" value="0">c)	No, cada uno crea su destino.<br>
-			</div>
-			<br>
-			
-			//Empatico
+			//Empatico 29-32
 			<div class="preguntas">
 			Si ves a un amigo o amiga que no está bien o demuestra que algo la afecta, ¿cómo te comportas?
 			<br> <br>
@@ -255,7 +255,7 @@ session_start();
 			</div>
 			<br>
 			
-			//Emprendedor
+			//Emprendedor 33-36
 			<div class="preguntas">
 			Cuando logras cumplir un objetivo:
 			<br> <br>
@@ -265,55 +265,50 @@ session_start();
 			</div>
 			<br>
 			
-			//Flexible
+			//Flexible 37-40
 			<div class="preguntas">
 			
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a)	<br>
-			<input type=radio name="pregunta16" value="0">b)	<br>
-			<input type=radio name="pregunta16" value="0">c)	<br>
+			<input type=radio name="pregunta37" value="1" checked="checked">a)	<br>
+			<input type=radio name="pregunta37" value="0">b)	<br>
+			<input type=radio name="pregunta37" value="0">c)	<br>
 			</div>
 			<br>
 			
-			//Futurista
+			//Futurista 41-44
 			<div class="preguntas">
 			
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a) <br>
-			<input type=radio name="pregunta16" value="0">b)<br>
-			<input type=radio name="pregunta16" value="0">c)<br>
+			<input type=radio name="pregunta41" value="1" checked="checked">a) <br>
+			<input type=radio name="pregunta41" value="0">b)<br>
+			<input type=radio name="pregunta41" value="0">c)<br>
 			</div>
 			<br>
 			
-			//Mandatario
+			//Mandatario 45-48
 			<div class="preguntas">
 			
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a) <br>
-			<input type=radio name="pregunta16" value="0">b)<br>
-			<input type=radio name="pregunta16" value="0">c)<br>
+			<input type=radio name="pregunta45" value="1" checked="checked">a) <br>
+			<input type=radio name="pregunta45" value="0">b)<br>
+			<input type=radio name="pregunta45" value="0">c)<br>
 			</div>
 			<br>
 			
-			//Responsable
+			Responsable 49-52
 			<div class="preguntas">
 			Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntaran en cierta estación del metro:
 			
 			<br> <br>
-			<input type=radio name="pregunta16" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
-			<input type=radio name="pregunta16" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
-			<input type=radio name="pregunta16" value="0">c)	Te atrasaste, pero sabes que tus amigos también se atrasaran, sabes que siempre es así.<br>
+			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
+			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
+			<input type=radio name="pregunta49" value="0">c)	Te atrasaste, pero sabes que tus amigos también se atrasaran, sabes que siempre es así.<br>
 			</div>
 			<br>
 
 
-//Emprendedor
-Cuando logras cumplir un objetivo:
-A)	Te sientes feliz por tu logro
-B)	Te sientes conforme, pero crees que necesitas seguir avanzando.
-C)	No te conformas, piensas que fue muy  fácil.
 
-//Responsable
+
 
 			
 			
@@ -350,3 +345,5 @@ C)	No te conformas, piensas que fue muy  fácil.
 	 
 </body>
 </html>
+
+
