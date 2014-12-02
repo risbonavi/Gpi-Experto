@@ -229,11 +229,22 @@ session_start();
 			<div class="preguntas">
 			Si tubiera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demas, que haria usted:
 			<br> <br>
-			<input type=radio name="pregunta21" value="1" checked="checked">a)Lo despide<br>
-			<input type=radio name="pregunta21" value="0">b) lo apoya e incentiva a seguir<br>
-			<input type=radio name="pregunta21" value="0">c)	Le da un utimatum<br>
+			<input type=radio name="pregunta21" value="1" checked="checked">a) Lo despide<br>
+			<input type=radio name="pregunta21" value="0">b) Le brinda apoyo e incentiva a seguir<br>
+			<input type=radio name="pregunta21" value="0">c) Le da un utimatum<br>
 			</div>
 			<br>
+			
+			<div class="preguntas">
+			Se te hace fácil reconocer el potencial de quienes te rodean, por eso: 
+			<br> <br>
+			<input type=radio name="pregunta22" value="1" checked="checked">a) Les recomiendas que sigan así, se enfoquen en un único objetivo para lograr desarrollarse mejor.<br>
+			<input type=radio name="pregunta22" value="0">b) Los orientas a que exploren distintas áreas.<br>
+			<input type=radio name="pregunta22" value="0">c)	Los motivas para que enfrenten nuevo desafíos que los harán desarrollarse.<br>
+			</div>
+			<br>
+			
+
 			
 			//Disiplinado 25-28
 			<div class="preguntas">

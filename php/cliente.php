@@ -37,15 +37,15 @@ session_start();
          	<form method="POST" action="">
 			
 			<div class="preguntas">
-			1) Una empresa está tomando decisiones de si continuar con el rubro en el que se encuentra, y usted puede ayudar con la decisión, cual elegiría:<br> <br>
-			<input type=radio name="pregunta1" value="20" checked="checked">a)	Se cambiara de rubro a pesar de los riesgos, despidiendo a todo el personal y contrata gente nueva para su nuevo rubro.<br>
+			<b>1) Una empresa está tomando decisiones de si continuar con el rubro en el que se encuentra, y usted puede ayudar con la decisión, cual elegiría:</b><br> <br>
+			<input type=radio name="pregunta1" value="20" checked="checked">a)	Se cambia de rubro a pesar de los riesgos, despidiendo a todo el personal y contratando a gente nueva para su nuevo rubro.<br>
 			<input type=radio name="pregunta1" value="10">b)	Se cambia y conserva el personal en el nuevo rubro.<br>
 			<input type=radio name="pregunta1" value="5">c)	Prefiere no tomar la decisión, la delega.<br>
 			</div>
 			
 			<br>
 			<div class="preguntas">
-			2) Usted va caminando por la calle y esta en precencia de un accidente, usted que haría:<br><br>
+			<b>2) Usted va caminando por la calle y esta en presencia de un accidente, usted que haría:</b><br><br>
 			<input type=radio name="pregunta2" value="10" checked="checked">a)	Pide ayuda rápidamente y espera instrucciones de la autoridad.<br>
 			<input type=radio name="pregunta2" value="5">b)	Llama a un amigo que sabe qué hacer en estas situaciones, para que realice las gestiones.<br>
 			<input type=radio name="pregunta2" value="20">c)	Pide ayuda y coordina que la gente no se acerque y moleste a los lesionados.<br>
@@ -53,7 +53,7 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			3) En la situación cuando algo no le parece correcto o va en contra de sus creencias o principios:
+			<b>3) En la situación cuando algo no le parece correcto o va en contra de sus creencias o principios:</b>
 			<br><br>
 			<input type=radio name="pregunta3" value="20" checked="checked">a)	Sueles hablarlo y discutirlo con las personas responsables.<br>
 			<input type=radio name="pregunta3" value="10">b)	Prefieres no hacer nada para ahorrarte problemas.<br>
@@ -62,24 +62,24 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			4) Si se le presentara a usted un proyecto, que le fuera beneficioso, que decisión tomaría:<br><br>
+			<b>4) Si se le presenta a usted un proyecto, que le fuera beneficioso, que decisión tomaría:</b><br><br>
 			
-			<input type=radio name="pregunta4" value="10" checked="checked">a)	se asesoraría con personas expertas en el tema antes de tomar un decisión.<br>
-			<input type=radio name="pregunta4" value="20">b)	Tomaría el riesgo de tomar el proyecto sólo de acuerdo a sus experiencias previas.<br>
+			<input type=radio name="pregunta4" value="10" checked="checked">a) Se asesoraría con personas expertas en el tema antes de tomar un decisión.<br>
+			<input type=radio name="pregunta4" value="20">b) Tomaría el riesgo de tomar el proyecto sólo de acuerdo a sus experiencias previas.<br>
 			<input type=radio name="pregunta4" value="5">c)	Descartaria tomar la decisión, para que otros con mayores conocimientos la tomen.<br>
 			</div>
 			<br>
 			<div class="preguntas">
-			5) Si su empresa está entrando en una crisis y tiene opciones para definir el futro de esta, cuál de las siguientes opciones tomaría usted:<br><br>
+			<b>5) Si su empresa está entrando en una crisis y tiene opciones para definir el futuro de ésta, cuál de las siguientes opciones tomaría usted:</b><br><br>
 			
-			<input type=radio name="pregunta5"  value="5" checked="checked">a)	vender la empresa.<br>
-			<input type=radio name="pregunta5" value="10">b)	reducir personal para reducir costos de la empresa, para salvarla.<br>
-			<input type=radio name="pregunta5" value="20">c)	estudiar nuevas opciones de proyectos para salvar la empresa.<br>
+			<input type=radio name="pregunta5"  value="5" checked="checked">a)	Vender la empresa.<br>
+			<input type=radio name="pregunta5" value="10">b)	Reducir personal para reducir costos de la empresa, para salvarla.<br>
+			<input type=radio name="pregunta5" value="20">c)	Estudiar nuevas opciones de proyectos para salvar la empresa.<br>
 			</div>
 			
 			<br>
 			<div class="preguntas">
-			6) ¿usted cree que las empresas funcionen mejor mediante métodos y protocolos pre establecidos, de carácter autoritario?
+			<b>6) ¿Usted cree que las empresas funcionen mejor mediante métodos y protocolos pre establecidos, de carácter autoritario?</b>
 			<br><br>
 			<input type=radio name="pregunta6"  value="5" checked="checked">a)	Funcionan mejor pero reduce el ambiente laboral.<br>
 			<input type=radio name="pregunta6" value="10">b)	Funcionan pero muchas veces causan problemas de comunicación.<br>
