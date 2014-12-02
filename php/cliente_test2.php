@@ -225,10 +225,11 @@ session_start();
 			</div>
 			<br>
 			
-			//Desarrollador
+			//Desarrollador 21-24
 			<div class="preguntas">
-			
+			Si tubiera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demas, que haria usted:
 			<br> <br>
+<<<<<<< HEAD
 			<input type=radio name="pregunta21" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
 			<input type=radio name="pregunta21" value="0">b)	Si, Dios dirige todo<br>
 			<input type=radio name="pregunta21" value="0">c)	No, cada uno crea su destino.<br>
@@ -259,13 +260,19 @@ session_start();
 			<input type=radio name="pregunta24" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta24" value="0"> <br>
 			<input type=radio name="pregunta24" value="0"> <br>
+=======
+			<input type=radio name="pregunta21" value="1" checked="checked">a)Lo despide<br>
+			<input type=radio name="pregunta21" value="0">b) lo apoya e incentiva a seguir<br>
+			<input type=radio name="pregunta21" value="0">c)	Le da un utimatum<br>
+>>>>>>> origin/master
 			</div>
 			<br>
 			
-			//Disiplinado
+			//Disiplinado 25-28
 			<div class="preguntas">
 			
 			<br> <br>
+<<<<<<< HEAD
 			<input type=radio name="pregunta25" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta25" value="0"> <br>
 			<input type=radio name="pregunta25" value="0"> <br>
@@ -296,10 +303,15 @@ session_start();
 			<input type=radio name="pregunta28" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta28" value="0"> <br>
 			<input type=radio name="pregunta28" value="0"> <br>
+=======
+			<input type=radio name="pregunta16" value="1" checked="checked">a) <br>
+			<input type=radio name="pregunta16" value="0">b)	<br>
+			<input type=radio name="pregunta16" value="0">c)	<br>
+>>>>>>> origin/master
 			</div>
 			<br>
 			
-			//Empatico
+			//Empatico 29-32
 			<div class="preguntas">
 			Si ves a un amigo o amiga que no está bien o demuestra que algo la afecta, ¿cómo te comportas?
 			<br> <br>
@@ -336,7 +348,7 @@ session_start();
 			</div>
 			<br>
 			
-			//Emprendedor
+			//Emprendedor 33-36
 			<div class="preguntas">
 			Cuando logras cumplir un objetivo:
 			<br> <br>
@@ -373,7 +385,7 @@ session_start();
 			</div>
 			<br>
 			
-			//Flexible
+			//Flexible 37-40
 			<div class="preguntas">
 			
 			<br> <br>
@@ -383,6 +395,7 @@ session_start();
 			</div>
 			<br>
 			
+<<<<<<< HEAD
                         <div class="preguntas">
 			
 			<br> <br>
@@ -410,12 +423,16 @@ session_start();
 			</div>
 			<br>
 			//Futurista
+=======
+			//Futurista 41-44
+>>>>>>> origin/master
 			<div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta41" value="1" checked="checked">a) <br>
 			<input type=radio name="pregunta41" value="0">b)<br>
 			<input type=radio name="pregunta41" value="0">c)<br>
+<<<<<<< HEAD
 			</div>
 			<br>
                         
@@ -425,6 +442,8 @@ session_start();
 			<input type=radio name="pregunta42" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta42" value="0"> <br>
 			<input type=radio name="pregunta42" value="0"> <br>
+=======
+>>>>>>> origin/master
 			</div>
 			<br>
                         
@@ -447,13 +466,14 @@ session_start();
 			<br>
                         
 			
-			//Mandatario
+			//Mandatario 45-48
 			<div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta45" value="1" checked="checked">a) <br>
 			<input type=radio name="pregunta45" value="0">b)<br>
 			<input type=radio name="pregunta45" value="0">c)<br>
+<<<<<<< HEAD
 			</div>
 			<br>
                         
@@ -481,10 +501,12 @@ session_start();
 			<input type=radio name="pregunta48" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta48" value="0"> <br>
 			<input type=radio name="pregunta48" value="0"> <br>
+=======
+>>>>>>> origin/master
 			</div>
 			<br>
 			
-			//Responsable
+			Responsable 49-52
 			<div class="preguntas">
 			Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntaran en cierta estación del metro:
 			
@@ -492,6 +514,7 @@ session_start();
 			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
 			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
 			<input type=radio name="pregunta49" value="0">c)	Te atrasaste, pero sabes que tus amigos también se atrasaran, sabes que siempre es así.<br>
+<<<<<<< HEAD
 			</div>
 			<br>
                         
@@ -521,6 +544,14 @@ session_start();
 			<input type=radio name="pregunta52" value="0"> <br>
 			</div>
 			<br>
+=======
+			</div>
+			<br>
+
+
+
+
+>>>>>>> origin/master
 
 			
 			
@@ -662,3 +693,5 @@ session_start();
 	 
 </body>
 </html>
+
+
