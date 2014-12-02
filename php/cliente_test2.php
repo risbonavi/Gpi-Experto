@@ -179,11 +179,11 @@ session_start();
 			<br>
 		
 			<div class="preguntas">
-			
+			Es el matrimonio de un amigo  y me pide que haga un  pequeño discurso delante de los asistente . ¿Cuales es su respuesta?
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a) <br>
-			<input type=radio name="pregunta16" value="0">b)	<br>
-			<input type=radio name="pregunta16" value="0">c)	<br>
+			<input type=radio name="pregunta16" value="1" checked="checked">a)a)   No, por que me da verguenza<br>
+			<input type=radio name="pregunta16" value="0">b) Lo piensas  pero le dijo que no . Porque no tengo nada preparado.<br>
+			<input type=radio name="pregunta16" value="0">c) Aceptas inmediatamente.<br>
 			</div>
 			<br>
 		
@@ -229,19 +229,15 @@ session_start();
 			<div class="preguntas">
 			Si tubiera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demas, que haria usted:
 			<br> <br>
-<<<<<<< HEAD
+
 			<input type=radio name="pregunta21" value="1" checked="checked">a) Lo despide<br>
 			<input type=radio name="pregunta21" value="0">b) Le brinda apoyo e incentiva a seguir<br>
 			<input type=radio name="pregunta21" value="0">c) Le da un utimatum<br>
-=======
-<<<<<<< HEAD
-			<input type=radio name="pregunta21" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
-			<input type=radio name="pregunta21" value="0">b)	Si, Dios dirige todo<br>
-			<input type=radio name="pregunta21" value="0">c)	No, cada uno crea su destino.<br>
 			</div>
 			<br>
+			
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			Se te hace fácil reconocer el potencial de quienes te rodean, por eso:
 			<br> <br>
 			<input type=radio name="pregunta22" value="1" checked="checked">a)	Les recomiendas que sigan así, se enfoquen en un único objetivo para lograr desarrollarse mejor. <br>
@@ -250,53 +246,40 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
-			
+            <div class="preguntas">
+			Un dia vas caminando por la calle y ves un anuncio que es saltar en paracaida de un avión en conjunto de tus amigos a un precio imperdible. ¿Que haces?
+
 			<br> <br>
-			<input type=radio name="pregunta23" value="1" checked="checked"> <br>
-			<input type=radio name="pregunta23" value="0"> <br>
-			<input type=radio name="pregunta23" value="0"> <br>
+			<input type=radio name="pregunta23" value="1" checked="checked">a) Piensas en llamar a tus amigos pero lo conoces  y sabes que no le gustan este tipo de actividades <br>
+			<input type=radio name="pregunta23" value="0"> b) Lo piensas y rápidamente lo ignoras.<br>
+			<input type=radio name="pregunta23" value="0">c) Llamas a tus amigos y los motivas enseguida a para que aprovechen la oportunidad. <br>
 			</div>
 			<br>
                         
-                        <div class="preguntas">
-			
+            <div class="preguntas">
+			falta una XD
 			<br> <br>
 			<input type=radio name="pregunta24" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta24" value="0"> <br>
 			<input type=radio name="pregunta24" value="0"> <br>
-=======
-			<input type=radio name="pregunta21" value="1" checked="checked">a)Lo despide<br>
-			<input type=radio name="pregunta21" value="0">b) lo apoya e incentiva a seguir<br>
-			<input type=radio name="pregunta21" value="0">c)	Le da un utimatum<br>
->>>>>>> origin/master
->>>>>>> origin/master
-			</div>
-			<br>
-			
-			<div class="preguntas">
-			Se te hace fácil reconocer el potencial de quienes te rodean, por eso: 
-			<br> <br>
-			<input type=radio name="pregunta22" value="1" checked="checked">a) Les recomiendas que sigan así, se enfoquen en un único objetivo para lograr desarrollarse mejor.<br>
-			<input type=radio name="pregunta22" value="0">b) Los orientas a que exploren distintas áreas.<br>
-			<input type=radio name="pregunta22" value="0">c)	Los motivas para que enfrenten nuevo desafíos que los harán desarrollarse.<br>
 			</div>
 			<br>
 			
 
 			
 			//Disiplinado 25-28
-			<div class="preguntas">
 			
+			<div class="preguntas">
+
+			Cuando realizas una fiesta en tu casa, la mejor forma de hacerla es:
 			<br> <br>
-<<<<<<< HEAD
-			<input type=radio name="pregunta25" value="1" checked="checked"> <br>
-			<input type=radio name="pregunta25" value="0"> <br>
-			<input type=radio name="pregunta25" value="0"> <br>
+			<input type=radio name="pregunta25" value="0" checked="checked">a) Siempre es mejor improvisar las fiestas, si se planean no resulta como quiero.<br>
+			<input type=radio name="pregunta25" value="0">b)	La organizo unos días antes, no requiero de mucho tiempo para tener todo en orden.<br>
+			<input type=radio name="pregunta25" value="1">c)	Me gusta saber quién viene y quien no, para saber qué cosas comprar. No me gusta dejar todo a última hora, me gusta organizarla bien.<br>
 			</div>
 			<br>
-                        
-                        <div class="preguntas">
+			
+			<div class="preguntas">
 			¿Cómo es tu estación de trabajo?
 			<br> <br>
 			<input type=radio name="pregunta26" value="1" checked="checked">a)	Me gusta tener un lugar amplio, tranquilo y ordenado, todo se me hace más fácil así. <br>
@@ -305,8 +288,8 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
-			
+            <div class="preguntas">
+			pregunta27
 			<br> <br>
 			<input type=radio name="pregunta27" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta27" value="0"> <br>
@@ -314,19 +297,16 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
-			
+            <div class="preguntas">
+			pregunta28
 			<br> <br>
 			<input type=radio name="pregunta28" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta28" value="0"> <br>
 			<input type=radio name="pregunta28" value="0"> <br>
-=======
-			<input type=radio name="pregunta16" value="1" checked="checked">a) <br>
-			<input type=radio name="pregunta16" value="0">b)	<br>
-			<input type=radio name="pregunta16" value="0">c)	<br>
->>>>>>> origin/master
 			</div>
 			<br>
+			
+			
 			
 			//Empatico 29-32
 			<div class="preguntas">
@@ -338,26 +318,27 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
+			Una pareja de pololos, que además son amigos tuyos tienen una pelea y deciden terminar su relación amorosa, cada uno por su lado triste, se acerca a tí para hablar  de lo sucedido y te cuentan su respectiva versión de los hechos. ¿Que harías tú ante esta situación planteada?
 			
 			<br> <br>
-			<input type=radio name="pregunta30" value="1" checked="checked"> <br>
-			<input type=radio name="pregunta30" value="0"> <br>
-			<input type=radio name="pregunta30" value="0"> <br>
+			<input type=radio name="pregunta30" value="0" checked="checked"> a) Decides marginarte del problema, ya que como dice el dicho: mejor no meterse en peleas de pareja.<br>
+			<input type=radio name="pregunta30" value="0">b) Piensas en ayudarlos, pero sabes que ellos siempre pelean, terminan y vuelven finalmente, así que dejas que se arreglen sus diferencias ellos.<br>
+			<input type=radio name="pregunta30" value="1"> d) Eres objetivo y hablas con cada uno por separado y creas una instancia para que se junten y arreglen los problemas de manera tranquila y con autocrítica por parte de cada uno.<br>
 			</div>
 			<br>
                         
-                        <div class="preguntas">
-			
+            <div class="preguntas">
+			<img src="../images/empatico.jpg" width="300px" height="300px"><br>Al ver esta imagen usted que siente:
 			<br> <br>
-			<input type=radio name="pregunta31" value="1" checked="checked"> <br>
-			<input type=radio name="pregunta31" value="0"> <br>
-			<input type=radio name="pregunta31" value="0"> <br>
+			<input type=radio name="pregunta31" value="0" checked="checked">a) No siente nada <br>
+			<input type=radio name="pregunta31" value="1">b) Siente tristeza<br>
+			<input type=radio name="pregunta31" value="1">c) Siente felicidad<br>
 			</div>
 			<br>
                         
-                        <div class="preguntas">
-			
+            <div class="preguntas">
+			pregunta32
 			<br> <br>
 			<input type=radio name="pregunta32" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta32" value="0"> <br>
@@ -375,7 +356,7 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta34" value="1" checked="checked"> <br>
@@ -384,7 +365,7 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta35" value="1" checked="checked"> <br>
@@ -393,7 +374,7 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta36" value="1" checked="checked"> <br>
@@ -404,34 +385,31 @@ session_start();
 			
 			//Flexible 37-40
 			<div class="preguntas">
-			
-			<br> <br>
-			<input type=radio name="pregunta37" value="1" checked="checked">a)	<br>
-			<input type=radio name="pregunta37" value="0">b)	<br>
-			<input type=radio name="pregunta37" value="0">c)	<br>
+			¿Alguna vez haz  viajado ”mochileando”?<br> <br>
+			<input type=radio name="pregunta37" value="0" checked="checked">a)	No me atrevo a hacerlo, me gusta organizar bien mis viajes.	<br>
+			<input type=radio name="pregunta37" value="1">b)	Si lo he hecho, me gusta la idea de no saber cómo llegare a mi destino.<br>
+			<input type=radio name="pregunta37" value="0">c)	Aun no lo hago, pero tengo intenciones de hacerlo pronto.	<br>
 			</div>
 			<br>
-			
-<<<<<<< HEAD
-                        <div class="preguntas">
-			
-			<br> <br>
-			<input type=radio name="pregunta38" value="1" checked="checked"> <br>
-			<input type=radio name="pregunta38" value="0"> <br>
-			<input type=radio name="pregunta38" value="0"> <br>
+
+            <div class="preguntas">
+			¿Cuánto tardas en prepararte (ducharte, vestirte, etc.) para ir a algun evento?<br> <br>
+			<input type=radio name="pregunta38" value="0" checked="checked"> a)	15 o 20 minutos.<br>
+			<input type=radio name="pregunta38" value="0"> b)	20 a 30 minutos.<br>
+			<input type=radio name="pregunta38" value="1">c)	Más de 30 minutos. <br>
 			</div>
 			<br>
                         
-                        <div class="preguntas">
-			
+            <div class="preguntas">
+			En una cita con una persona que sea de su interés:
 			<br> <br>
-			<input type=radio name="pregunta39" value="1" checked="checked"> <br>
-			<input type=radio name="pregunta39" value="0"> <br>
-			<input type=radio name="pregunta39" value="0"> <br>
+			<input type=radio name="pregunta39" value="0" checked="checked">a) Prefiere que sea planificada.<br>
+			<input type=radio name="pregunta39" value="1">b) Que sea espontanea.<br>
+			<input type=radio name="pregunta39" value="0">c) No le agradan las citas.<br>
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta40" value="1" checked="checked"> <br>
@@ -439,32 +417,29 @@ session_start();
 			<input type=radio name="pregunta40" value="0"> <br>
 			</div>
 			<br>
-			//Futurista
-=======
+
+			
 			//Futurista 41-44
->>>>>>> origin/master
+
 			<div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta41" value="1" checked="checked">a) <br>
 			<input type=radio name="pregunta41" value="0">b)<br>
 			<input type=radio name="pregunta41" value="0">c)<br>
-<<<<<<< HEAD
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta42" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta42" value="0"> <br>
 			<input type=radio name="pregunta42" value="0"> <br>
-=======
->>>>>>> origin/master
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta43" value="1" checked="checked"> <br>
@@ -473,7 +448,7 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta44" value="1" checked="checked"> <br>
@@ -490,11 +465,10 @@ session_start();
 			<input type=radio name="pregunta45" value="1" checked="checked">a) <br>
 			<input type=radio name="pregunta45" value="0">b)<br>
 			<input type=radio name="pregunta45" value="0">c)<br>
-<<<<<<< HEAD
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta46" value="1" checked="checked"> <br>
@@ -503,7 +477,7 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta47" value="1" checked="checked"> <br>
@@ -512,14 +486,12 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta48" value="1" checked="checked"> <br>
 			<input type=radio name="pregunta48" value="0"> <br>
 			<input type=radio name="pregunta48" value="0"> <br>
-=======
->>>>>>> origin/master
 			</div>
 			<br>
 			
@@ -531,11 +503,11 @@ session_start();
 			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
 			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
 			<input type=radio name="pregunta49" value="0">c)	Te atrasaste, pero sabes que tus amigos también se atrasaran, sabes que siempre es así.<br>
-<<<<<<< HEAD
+
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+			<div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta50" value="1" checked="checked"> <br>
@@ -544,7 +516,7 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta51" value="1" checked="checked"> <br>
@@ -553,7 +525,7 @@ session_start();
 			</div>
 			<br>
                         
-                        <div class="preguntas">
+            <div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta52" value="1" checked="checked"> <br>
@@ -561,16 +533,6 @@ session_start();
 			<input type=radio name="pregunta52" value="0"> <br>
 			</div>
 			<br>
-=======
-			</div>
-			<br>
-
-
-
-
->>>>>>> origin/master
-
-			
 			
 			<input type=submit name="btnContinuar" value="Continuar"><br>
 
