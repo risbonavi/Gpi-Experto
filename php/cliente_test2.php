@@ -229,9 +229,48 @@ session_start();
 			<div class="preguntas">
 			Si tubiera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demas, que haria usted:
 			<br> <br>
+<<<<<<< HEAD
 			<input type=radio name="pregunta21" value="1" checked="checked">a) Lo despide<br>
 			<input type=radio name="pregunta21" value="0">b) Le brinda apoyo e incentiva a seguir<br>
 			<input type=radio name="pregunta21" value="0">c) Le da un utimatum<br>
+=======
+<<<<<<< HEAD
+			<input type=radio name="pregunta21" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
+			<input type=radio name="pregunta21" value="0">b)	Si, Dios dirige todo<br>
+			<input type=radio name="pregunta21" value="0">c)	No, cada uno crea su destino.<br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			Se te hace fácil reconocer el potencial de quienes te rodean, por eso:
+			<br> <br>
+			<input type=radio name="pregunta22" value="1" checked="checked">a)	Les recomiendas que sigan así, se enfoquen en un único objetivo para lograr desarrollarse mejor. <br>
+			<input type=radio name="pregunta22" value="0">b)		Los orientas a que exploren distintas áreas.<br>
+			<input type=radio name="pregunta22" value="0">c)		Los motivas para que enfrenten nuevo desafíos que los harán desarrollarse. <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta23" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta23" value="0"> <br>
+			<input type=radio name="pregunta23" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta24" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta24" value="0"> <br>
+			<input type=radio name="pregunta24" value="0"> <br>
+=======
+			<input type=radio name="pregunta21" value="1" checked="checked">a)Lo despide<br>
+			<input type=radio name="pregunta21" value="0">b) lo apoya e incentiva a seguir<br>
+			<input type=radio name="pregunta21" value="0">c)	Le da un utimatum<br>
+>>>>>>> origin/master
+>>>>>>> origin/master
 			</div>
 			<br>
 			
@@ -250,9 +289,42 @@ session_start();
 			<div class="preguntas">
 			
 			<br> <br>
+<<<<<<< HEAD
+			<input type=radio name="pregunta25" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta25" value="0"> <br>
+			<input type=radio name="pregunta25" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			¿Cómo es tu estación de trabajo?
+			<br> <br>
+			<input type=radio name="pregunta26" value="1" checked="checked">a)	Me gusta tener un lugar amplio, tranquilo y ordenado, todo se me hace más fácil así. <br>
+			<input type=radio name="pregunta26" value="0">b)	Amplio, no muy ordenado, me gusta probar nuevas cosas, lo que me dificulta tener orden.<br>
+			<input type=radio name="pregunta26" value="0">c)	No muy amplio, pero tampoco pequeño, no necesito tener mucho espacio, me gusta tener todo cerca.<br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta27" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta27" value="0"> <br>
+			<input type=radio name="pregunta27" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta28" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta28" value="0"> <br>
+			<input type=radio name="pregunta28" value="0"> <br>
+=======
 			<input type=radio name="pregunta16" value="1" checked="checked">a) <br>
 			<input type=radio name="pregunta16" value="0">b)	<br>
 			<input type=radio name="pregunta16" value="0">c)	<br>
+>>>>>>> origin/master
 			</div>
 			<br>
 			
@@ -260,9 +332,36 @@ session_start();
 			<div class="preguntas">
 			Si ves a un amigo o amiga que no está bien o demuestra que algo la afecta, ¿cómo te comportas?
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a)Tiendes a acercarte y preguntarle que le ocurre, lo escuchas y le das algún consejo. <br>
-			<input type=radio name="pregunta16" value="0">b)	Te acercas e independiente de lo que le pase tratas de subirle el ánimo.<br>
-			<input type=radio name="pregunta16" value="0">c)	Te acercas y le preguntas que ocurre, pero no le das consejos, prefieres no entrometerte. <br>
+			<input type=radio name="pregunta29" value="1" checked="checked">a)Tiendes a acercarte y preguntarle que le ocurre, lo escuchas y le das algún consejo. <br>
+			<input type=radio name="pregunta29" value="0">b)	Te acercas e independiente de lo que le pase tratas de subirle el ánimo.<br>
+			<input type=radio name="pregunta29" value="0">c)	Te acercas y le preguntas que ocurre, pero no le das consejos, prefieres no entrometerte. <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta30" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta30" value="0"> <br>
+			<input type=radio name="pregunta30" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta31" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta31" value="0"> <br>
+			<input type=radio name="pregunta31" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta32" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta32" value="0"> <br>
+			<input type=radio name="pregunta32" value="0"> <br>
 			</div>
 			<br>
 			
@@ -270,9 +369,36 @@ session_start();
 			<div class="preguntas">
 			Cuando logras cumplir un objetivo:
 			<br> <br>
-			<input type=radio name="pregunta16" value="1" checked="checked">a)	Te sientes feliz por tu logro<br>
-			<input type=radio name="pregunta16" value="0">b)	Te sientes conforme, pero crees que necesitas seguir avanzando.<br>
-			<input type=radio name="pregunta16" value="0">c)	No te conformas, piensas que fue muy  fácil.<br>
+			<input type=radio name="pregunta33" value="1" checked="checked">a)	Te sientes feliz por tu logro<br>
+			<input type=radio name="pregunta33" value="0">b)	Te sientes conforme, pero crees que necesitas seguir avanzando.<br>
+			<input type=radio name="pregunta33" value="0">c)	No te conformas, piensas que fue muy  fácil.<br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta34" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta34" value="0"> <br>
+			<input type=radio name="pregunta34" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta35" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta35" value="0"> <br>
+			<input type=radio name="pregunta35" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta36" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta36" value="0"> <br>
+			<input type=radio name="pregunta36" value="0"> <br>
 			</div>
 			<br>
 			
@@ -286,15 +412,76 @@ session_start();
 			</div>
 			<br>
 			
+<<<<<<< HEAD
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta38" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta38" value="0"> <br>
+			<input type=radio name="pregunta38" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta39" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta39" value="0"> <br>
+			<input type=radio name="pregunta39" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta40" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta40" value="0"> <br>
+			<input type=radio name="pregunta40" value="0"> <br>
+			</div>
+			<br>
+			//Futurista
+=======
 			//Futurista 41-44
+>>>>>>> origin/master
 			<div class="preguntas">
 			
 			<br> <br>
 			<input type=radio name="pregunta41" value="1" checked="checked">a) <br>
 			<input type=radio name="pregunta41" value="0">b)<br>
 			<input type=radio name="pregunta41" value="0">c)<br>
+<<<<<<< HEAD
 			</div>
 			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta42" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta42" value="0"> <br>
+			<input type=radio name="pregunta42" value="0"> <br>
+=======
+>>>>>>> origin/master
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta43" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta43" value="0"> <br>
+			<input type=radio name="pregunta43" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta44" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta44" value="0"> <br>
+			<input type=radio name="pregunta44" value="0"> <br>
+			</div>
+			<br>
+                        
 			
 			//Mandatario 45-48
 			<div class="preguntas">
@@ -303,6 +490,36 @@ session_start();
 			<input type=radio name="pregunta45" value="1" checked="checked">a) <br>
 			<input type=radio name="pregunta45" value="0">b)<br>
 			<input type=radio name="pregunta45" value="0">c)<br>
+<<<<<<< HEAD
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta46" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta46" value="0"> <br>
+			<input type=radio name="pregunta46" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta47" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta47" value="0"> <br>
+			<input type=radio name="pregunta47" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta48" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta48" value="0"> <br>
+			<input type=radio name="pregunta48" value="0"> <br>
+=======
+>>>>>>> origin/master
 			</div>
 			<br>
 			
@@ -314,12 +531,44 @@ session_start();
 			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
 			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
 			<input type=radio name="pregunta49" value="0">c)	Te atrasaste, pero sabes que tus amigos también se atrasaran, sabes que siempre es así.<br>
+<<<<<<< HEAD
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta50" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta50" value="0"> <br>
+			<input type=radio name="pregunta50" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta51" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta51" value="0"> <br>
+			<input type=radio name="pregunta51" value="0"> <br>
+			</div>
+			<br>
+                        
+                        <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta52" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta52" value="0"> <br>
+			<input type=radio name="pregunta52" value="0"> <br>
+			</div>
+			<br>
+=======
 			</div>
 			<br>
 
 
 
 
+>>>>>>> origin/master
 
 			
 			
@@ -336,18 +585,123 @@ session_start();
 			$p2 = $_POST['pregunta2'];
 			$p3 = $_POST['pregunta3'];
 			$p4 = $_POST['pregunta4'];
-			$p5 = $_POST['pregunta5'];
-			$p6 = $_POST['pregunta6'];
-			
-			$suma = $p1+$p2+$p3+$p4+$p5+$p6;
-			echo "puntos obtenidos: ".$suma."<br>";
-			//echo "detalles: $suma = $p1+$p2+$p3+$p4+$p5+$p6"."<br>" ;
-			
-			if($suma>0 && $suma<=59){echo "operacional";}
-			else if($suma>60 && $suma<=99){echo "tactico";}
-			else if($suma>100 && $suma<=120){echo "estrategico";}
-			else{echo "fuera del rango";}
+                        
+                        $analitico = $p1+$p2+$p3+$p4;
+                        if($analitico>=3)
+                            $analitico = true;
+                        
+                        $p1 = $_POST['pregunta5'];
+			$p2 = $_POST['pregunta6'];
+			$p3 = $_POST['pregunta7'];
+			$p4 = $_POST['pregunta8'];
+                        
+                        $armonico = $p1+$p2+$p3+$p4;
+                        if($armonico>=3)
+                            $armonico = true;
+                        
+                        $p1 = $_POST['pregunta9'];
+			$p2 = $_POST['pregunta10'];
+			$p3 = $_POST['pregunta11'];
+			$p4 = $_POST['pregunta12'];
+                        
+                        $competitivo = $p1+$p2+$p3+$p4;
+                        if($competitivo>=3)
+                            $competitivo = true;
+                        
+                        $p1 = $_POST['pregunta13'];
+			$p2 = $_POST['pregunta14'];
+			$p3 = $_POST['pregunta15'];
+			$p4 = $_POST['pregunta16'];
+                        
+                        $comunicador = $p1+$p2+$p3+$p4;
+                        if($comunicador>=3)
+                            $comunicador = true;
+                        
+                        $p1 = $_POST['pregunta17'];
+			$p2 = $_POST['pregunta18'];
+			$p3 = $_POST['pregunta19'];
+			$p4 = $_POST['pregunta20'];
+                        
+                        $conector = $p1+$p2+$p3+$p4;
+                        if($conector>=3)
+                            $conector = true;
+                        
+                        $p1 = $_POST['pregunta21'];
+			$p2 = $_POST['pregunta22'];
+			$p3 = $_POST['pregunta23'];
+			$p4 = $_POST['pregunta24'];
+                        
+                        $desarrollador = $p1+$p2+$p3+$p4;
+                        if($desarrollador>=3)
+                            $desarrollador = true;
+                        
+                        $p1 = $_POST['pregunta25'];
+			$p2 = $_POST['pregunta26'];
+			$p3 = $_POST['pregunta27'];
+			$p4 = $_POST['pregunta28'];
+                        
+                        $disciplinado = $p1+$p2+$p3+$p4;
+                        if($disciplinado>=3)
+                            $disciplinado = true;
+                        
+                        $p1 = $_POST['pregunta29'];
+			$p2 = $_POST['pregunta30'];
+			$p3 = $_POST['pregunta31'];
+			$p4 = $_POST['pregunta32'];
+                        
+                        $empatico = $p1+$p2+$p3+$p4;
+                        if($empatico>=3)
+                            $empatico = true;
+                        
+                        $p1 = $_POST['pregunta33'];
+			$p2 = $_POST['pregunta34'];
+			$p3 = $_POST['pregunta35'];
+			$p4 = $_POST['pregunta36'];
+                        
+                        $emprendedor = $p1+$p2+$p3+$p4;
+                        if($emprendedor>=3)
+                            $emprendedor = true;
+                        
+                        $p1 = $_POST['pregunta37'];
+			$p2 = $_POST['pregunta38'];
+			$p3 = $_POST['pregunta39'];
+			$p4 = $_POST['pregunta40'];
+                        
+                        $flexible = $p1+$p2+$p3+$p4;
+                        if($flexible>=3)
+                            $flexible = true;
+                        
+                        $p1 = $_POST['pregunta41'];
+			$p2 = $_POST['pregunta42'];
+			$p3 = $_POST['pregunta43'];
+			$p4 = $_POST['pregunta44'];
+                        
+                        $futurista = $p1+$p2+$p3+$p4;
+                        if($futurista>=3)
+                            $futurista = true;
+                        
+                        $p1 = $_POST['pregunta45'];
+			$p2 = $_POST['pregunta46'];
+			$p3 = $_POST['pregunta47'];
+			$p4 = $_POST['pregunta48'];
+                        
+                        $mandatario = $p1+$p2+$p3+$p4;
+                        if($mandatario>=3)
+                            $mandatario = true;
+                        
+                        $p1 = $_POST['pregunta49'];
+			$p2 = $_POST['pregunta50'];
+			$p3 = $_POST['pregunta51'];
+			$p4 = $_POST['pregunta52'];
+                        
+                        $responsable = $p1+$p2+$p3+$p4;
+                        if($responsable>=3)
+                            $responsable = true;
 		}
+                
+                
+                if($analitico = true && $emprendedor = true && $desarrollador = true)
+                        $cargo ='Gerente';
 		
 		?>
 	</div>

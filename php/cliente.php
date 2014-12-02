@@ -88,7 +88,8 @@ session_start();
 			<br>
 
 			
-			<input type=submit name="btnContinuar" value="Continuar"><br>
+			
+                        <a href='cliente_test2.php' name="btnContinuar">Continuar</a>
 
 		    </form>
 
