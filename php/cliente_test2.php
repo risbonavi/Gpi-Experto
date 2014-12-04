@@ -26,13 +26,17 @@ session_start();
 	include ("../menu2.php");
 	?>
 	
+    
+
+
+
 	<div class="bienvenida">
 		
 		<p><div class="formulario"><b>Test</b></div></p>
 		
          	<form method="POST" action="">
 			
-			//analitico 4 ok
+			//analitico
 			<div class="preguntas">
 			Si un amigo de usted se encuentra gravemente enfermo, y recure a usted para pedir consejo:			
 			<br> <br>
@@ -70,7 +74,7 @@ session_start();
 			<br>
 			
 			
-			//Armonico 4 ok
+			//Armonico
 			
 			<div class="preguntas">
 			En el caso que en su empresa, le solicite a el personal retirarse temprano por fallas del sistema, pero con descuento de las horas no trabajadas, usted:
@@ -108,7 +112,7 @@ session_start();
 			</div>
 			<br>
 			
-			//Competitivo 4 ok
+			//Competitivo
 			
 			<div class="preguntas">
 			En una competencia fisica, usted 
@@ -146,7 +150,7 @@ session_start();
 			</div>
 			<br>
 			
-			//Comunicador 4 ok
+			//Comunicador
 			<div class="preguntas">
 			En su etapa escolar, ¿alguna vez  perteneció a algún centro de alumnos o cargo dentro de su curso? ¿Cuál?
 			<br> <br>
@@ -184,7 +188,7 @@ session_start();
 			<br>
 		
 		
-			//conector 4 ok
+			//conector
 			<div class="preguntas">
 			Cuando dos de tus amigos están “peleados” por algún motivo o razón, ¿cuál es tu postura?
 			<br> <br>
@@ -221,7 +225,7 @@ session_start();
 			</div>
 			<br>
 			
-			//Desarrollador 3 ok
+			//Desarrollador 21-24
 			<div class="preguntas">
 			Si tubiera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demas, que haria usted:
 			<br> <br>
@@ -251,11 +255,20 @@ session_start();
 			<input type=radio name="pregunta23" value="0">c) Llamas a tus amigos y los motivas enseguida a para que aprovechen la oportunidad. <br>
 			</div>
 			<br>
-                       
+                        
+            <div class="preguntas">
+			falta una XD
+			<br> <br>
+			<input type=radio name="pregunta24" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta24" value="0"> <br>
+			<input type=radio name="pregunta24" value="0"> <br>
+			</div>
+			<br>
 			
 
 			
-			//Disiplinado 3 ok
+			//Disiplinado 25-28
+			
 			<div class="preguntas">
 
 			Cuando realizas una fiesta en tu casa, la mejor forma de hacerla es:
@@ -276,22 +289,32 @@ session_start();
 			<br>
                         
             <div class="preguntas">
-			Cuando te vas de vacaciones, y llegas a una casa en la playa que te presto un familiar , y la encuentras sucia y desordenada, usted:
+			pregunta27
 			<br> <br>
-			<input type=radio name="pregunta27" value="0" checked="checked">a) Te instalas y descansas antes de ordenar y limpiar.<br>
-			<input type=radio name="pregunta27" value="1">b) Ordenas y limpias hasta que todo quede como querias y luego te acuestas.<br>
-			<input type=radio name="pregunta27" value="0">c) Piensas en ordenar pero finalmente decides en descansar.<br>
+			<input type=radio name="pregunta27" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta27" value="0"> <br>
+			<input type=radio name="pregunta27" value="0"> <br>
 			</div>
 			<br>
-                     	
+                        
+            <div class="preguntas">
+			pregunta28
+			<br> <br>
+			<input type=radio name="pregunta28" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta28" value="0"> <br>
+			<input type=radio name="pregunta28" value="0"> <br>
+			</div>
+			<br>
 			
-			//Empatico 3 ok
+			
+			
+			//Empatico 29-32
 			<div class="preguntas">
 			Si ves a un amigo o amiga que no está bien o demuestra que algo la afecta, ¿cómo te comportas?
 			<br> <br>
-			<input type=radio name="pregunta29" value="1" checked="checked">a) Tiendes a acercarte y preguntarle que le ocurre, lo escuchas y le das algún consejo. <br>
-			<input type=radio name="pregunta29" value="0">b) Te acercas e independiente de lo que le pase tratas de subirle el ánimo.<br>
-			<input type=radio name="pregunta29" value="0">c) Te acercas y le preguntas que ocurre, pero no le das consejos, prefieres no entrometerte. <br>
+			<input type=radio name="pregunta29" value="1" checked="checked">a)Tiendes a acercarte y preguntarle que le ocurre, lo escuchas y le das algún consejo. <br>
+			<input type=radio name="pregunta29" value="0">b)	Te acercas e independiente de lo que le pase tratas de subirle el ánimo.<br>
+			<input type=radio name="pregunta29" value="0">c)	Te acercas y le preguntas que ocurre, pero no le das consejos, prefieres no entrometerte. <br>
 			</div>
 			<br>
                         
@@ -313,40 +336,54 @@ session_start();
 			<input type=radio name="pregunta31" value="1">c) Siente felicidad<br>
 			</div>
 			<br>
-                
+                        
+            <div class="preguntas">
+			pregunta32
+			<br> <br>
+			<input type=radio name="pregunta32" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta32" value="0"> <br>
+			<input type=radio name="pregunta32" value="0"> <br>
+			</div>
+			<br>
 			
-			//Emprendedor 3 ok
+			//Emprendedor 33-36
 			<div class="preguntas">
 			Cuando logras cumplir un objetivo:
 			<br> <br>
-			<input type=radio name="pregunta33" value="0" checked="checked">a)	Te sientes feliz por tu logro<br>
-			<input type=radio name="pregunta33" value="1">b)	Te sientes conforme, pero crees que necesitas seguir avanzando.<br>
-			<input type=radio name="pregunta33" value="0">c)	No te conformas, piensas que fue muy fácil.<br>
+			<input type=radio name="pregunta33" value="1" checked="checked">a)	Te sientes feliz por tu logro<br>
+			<input type=radio name="pregunta33" value="0">b)	Te sientes conforme, pero crees que necesitas seguir avanzando.<br>
+			<input type=radio name="pregunta33" value="0">c)	No te conformas, piensas que fue muy  fácil.<br>
 			</div>
 			<br>
                         
             <div class="preguntas">
-			Si quisiera adquirir un  producto que le sea de utilidad, pero se encuentra con poco dinero para comprarlo porque aun no es fin de mes.  ¿Qué haría para obtenerlo?.
-			<br> <br>
-			<input type=radio name="pregunta34" value="0" checked="checked">a) Esperaría el pago, no tengo apuro por conseguirlo.<br>
-			<input type=radio name="pregunta34" value="1">b) Busco la forma de tenerlo en mi poder rápidamente. <br>
-			<input type=radio name="pregunta34" value="0">c) No soy una persona que la empuje el consumismo.<br>
-			</div>
-			<br>
-                        
-            <div class="preguntas">
-			Caminando un dia por la ciudad encuentras unos trozo de madera en muy buen estado. ¿Cual sería tu actitud?
-
-			<br> <br>
-			<input type=radio name="pregunta35" value="1" checked="checked">a) La recoges y te las llevas definiendo en el momento las cosas que vas hacer con ella.<br>
-			<input type=radio name="pregunta35" value="0">b) No le tomas importancia y sigues tu camino.<br>
-			<input type=radio name="pregunta35" value="0">c)  La ves y la examinas pero sigues tu camino.<br>
-			</div>
-			<br>
-                        
-
 			
-			//Flexible 3 ok
+			<br> <br>
+			<input type=radio name="pregunta34" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta34" value="0"> <br>
+			<input type=radio name="pregunta34" value="0"> <br>
+			</div>
+			<br>
+                        
+            <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta35" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta35" value="0"> <br>
+			<input type=radio name="pregunta35" value="0"> <br>
+			</div>
+			<br>
+                        
+            <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta36" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta36" value="0"> <br>
+			<input type=radio name="pregunta36" value="0"> <br>
+			</div>
+			<br>
+			
+			//Flexible 37-40
 			<div class="preguntas">
 			¿Alguna vez haz  viajado ”mochileando”?<br> <br>
 			<input type=radio name="pregunta37" value="0" checked="checked">a)	No me atrevo a hacerlo, me gusta organizar bien mis viajes.	<br>
@@ -372,96 +409,130 @@ session_start();
 			</div>
 			<br>
                         
+            <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta40" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta40" value="0"> <br>
+			<input type=radio name="pregunta40" value="0"> <br>
+			</div>
+			<br>
 
 			
-			//Futurista 3 ok
+			//Futurista 41-44
+
 			<div class="preguntas">
-			Acaba de recibir una herencia inesperadamente ¿Que harìa usted ante esta situación?
+			
 			<br> <br>
-			<input type=radio name="pregunta41" value="0" checked="checked">a) Regalo todo mi dinero a obras beneficas.<br>
-			<input type=radio name="pregunta41" value="0">b) Me gasto el dinero en lo que siempre soñe tener.<br>
-			<input type=radio name="pregunta41" value="1">c) Invierto el dinero en una actividad que me genere ingresos en el futuro.<br>
+			<input type=radio name="pregunta41" value="1" checked="checked">a) <br>
+			<input type=radio name="pregunta41" value="0">b)<br>
+			<input type=radio name="pregunta41" value="0">c)<br>
 			</div>
 			<br>
                         
             <div class="preguntas">
-			Usted a pensado en el futuro, divagando
+			
 			<br> <br>
-			<input type=radio name="pregunta42" value="0" checked="checked"> No, prefiero centranme en vivir dia a dia.<br>
-			<input type=radio name="pregunta42" value="1"> Si, siempre creo imagenes de lo podria llegar a realizar.<br>
-			<input type=radio name="pregunta42" value="0"> A veces, pero prefiero centrarme en el dia a dia.<br>
+			<input type=radio name="pregunta42" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta42" value="0"> <br>
+			<input type=radio name="pregunta42" value="0"> <br>
 			</div>
 			<br>
                         
             <div class="preguntas">
-			Antes de salir de su hogar, usted:
+			
 			<br> <br>
-			<input type=radio name="pregunta43" value="0" checked="checked"> Planifica detalladamente.<br>
-			<input type=radio name="pregunta43" value="1"> Se imagina como sera su dia.<br>
-			<input type=radio name="pregunta43" value="0"> Prefiere no planificar.<br>
+			<input type=radio name="pregunta43" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta43" value="0"> <br>
+			<input type=radio name="pregunta43" value="0"> <br>
 			</div>
 			<br>
-                   
+                        
+            <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta44" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta44" value="0"> <br>
+			<input type=radio name="pregunta44" value="0"> <br>
+			</div>
+			<br>
                         
 			
-			//Mandatario 3 ok
+			//Mandatario 45-48
 			<div class="preguntas">
-			Estas a cargo de un proyecto, ¿cuál es tu forma de decidir la manera en que lo harán?
+			
 			<br> <br>
-			<input type=radio name="pregunta45" value="0" checked="checked">a) Lo discutimos entre todos y elegimos cual es la mejor idea.<br>
-			<input type=radio name="pregunta45" value="1">b) Sé cómo abordarlo, le informo a mi grupo de trabajo la forma en que lo haremos.<br>
-			<input type=radio name="pregunta45" value="0">c) Sé cómo desarrollarlo, lo discuto con mi grupo y lo elegimos si es que estamos de acuerdo.<br>
+			<input type=radio name="pregunta45" value="1" checked="checked">a) <br>
+			<input type=radio name="pregunta45" value="0">b)<br>
+			<input type=radio name="pregunta45" value="0">c)<br>
 			</div>
 			<br>
                         
             <div class="preguntas">
-			En la asociación de fútbol en usted participa sus compañeros y demás socios lo postulan como el candidato ideal para que usted dirige el club. ¿Cual es la actitud que tomaría?
-
+			
 			<br> <br>
-			<input type=radio name="pregunta46" value="0" checked="checked">a) Usted rechazaria el puesto ya que tiene dudas de como poder ejercer su cargo.<br>
-			<input type=radio name="pregunta46" value="0">b) Usted acepta el puesto pero siempre y cuando exista unanimidad total.<br>
-			<input type=radio name="pregunta46" value="1">c) Usted toma las riendas del asunto y defiende su idea hasta todo.<br>
+			<input type=radio name="pregunta46" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta46" value="0"> <br>
+			<input type=radio name="pregunta46" value="0"> <br>
 			</div>
 			<br>
                         
             <div class="preguntas">
-			Si quisiera irse de paseo con sus amistades,  pero quiere ir a un lugar que le gusta demasiado, pero ellos no quieren ir al mismo lugar que Ud. ¿Qué haría?.
+			
 			<br> <br>
-			<input type=radio name="pregunta47" value="0" checked="checked">a) Iría al lugar donde vaya la mayoría.<br>
-			<input type=radio name="pregunta47" value="1">b) Saldría por su cuenta.<br>
-			<input type=radio name="pregunta47" value="0">c) Intentaría convencerlos de su opinión.<br>
+			<input type=radio name="pregunta47" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta47" value="0"> <br>
+			<input type=radio name="pregunta47" value="0"> <br>
 			</div>
 			<br>
                         
-
-			//Responsable 3 ok
+            <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta48" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta48" value="0"> <br>
+			<input type=radio name="pregunta48" value="0"> <br>
+			</div>
+			<br>
+			
+			Responsable 49-52
 			<div class="preguntas">
 			Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntaran en cierta estación del metro:
+			
 			<br> <br>
 			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
 			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
 			<input type=radio name="pregunta49" value="0">c)	Te atrasaste, pero sabes que tus amigos también se atrasaran, sabes que siempre es así.<br>
+
 			</div>
 			<br>
                         
 			<div class="preguntas">
-			Usted tiene planificado una junta con uno de sus amigos, pero ocurre un pequeño problema, usted se ha quedado dormido, por lo visto usted no llegaría a la hora y es probable también que no alcance a llegar.¿ Que haría usted en esta situación?
+			
 			<br> <br>
-			<input type=radio name="pregunta50" value="0" checked="checked"> No me preocupo por mi amigo y lo dejó plantado.<br>
-			<input type=radio name="pregunta50" value="0">Pienso en llamarlo pero, sé que me esperara así que no lo hago.<br>
-			<input type=radio name="pregunta50" value="1">LLamo a mi amigo y le cuento lo sucedido, le digo que llegaré lo más rápido posible, que si me puede esperar un poco y si es que no puede, que lo dejemos para otra ocasión y yo invito. <br>
+			<input type=radio name="pregunta50" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta50" value="0"> <br>
+			<input type=radio name="pregunta50" value="0"> <br>
 			</div>
 			<br>
                         
             <div class="preguntas">
-			Si tiene que realizar una tarea para su trabajo, pero se encuentra sumamente cansado. ¿Que decidiría?
+			
 			<br> <br>
-			<input type=radio name="pregunta51" value="0" checked="checked">a) Dormiría porque sin cansancio rindo mejor. <br>
-			<input type=radio name="pregunta51" value="1">b) Haría la tarea aunque no rinda lo suficiente. <br>
-			<input type=radio name="pregunta51" value="0">c) Delegaría la tarea en otras personas para poder descansar <br>
+			<input type=radio name="pregunta51" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta51" value="0"> <br>
+			<input type=radio name="pregunta51" value="0"> <br>
 			</div>
 			<br>
-                      
+                        
+            <div class="preguntas">
+			
+			<br> <br>
+			<input type=radio name="pregunta52" value="1" checked="checked"> <br>
+			<input type=radio name="pregunta52" value="0"> <br>
+			<input type=radio name="pregunta52" value="0"> <br>
+			</div>
+			<br>
 			
 			<input type=submit name="btnContinuar" value="Continuar"><br>
 
