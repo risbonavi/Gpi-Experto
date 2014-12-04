@@ -108,3 +108,20 @@ background-color: #ededed;
 border-radius: 5px 5px 5px 5px;
 /*text-shadow: 0em 0.1em 0.1em black;*/
 }
+
+.centrar {
+margin: 0 auto;
+background-color: #dfdfdf;
+width: 35%;
+padding: 10px;
+/*para Firefox*/
+-moz-border-radius: 15px 15px 15px 15px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 15px 15px 15px 15px;
+/* para Opera */
+border-radius: 15px 15px 15px 15px;
+box-shadow: 2px 2px 5px #999;
+-webkit-box-shadow: 2px 2px 5px #999;
+-moz-box-shadow: 2px 2px 5px #999;
+		
+		}
