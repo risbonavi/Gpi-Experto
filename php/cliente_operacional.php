@@ -117,18 +117,18 @@ session_start();
             $p1 = $_POST['pregunta25'];
 			$p2 = $_POST['pregunta26'];
 			$p3 = $_POST['pregunta27'];
-<<<<<<< HEAD
+
 			
                         
                         $var2 = $p1+$p2+$p3;
                         if($var2>=3)
                             $var2 = true;
-=======
+
                         
                         $disciplinado = $p1+$p2+$p3;
                         if($disciplinado>=3)
                             $disciplinado = true;
->>>>>>> origin/master
+
 
 			$sql = mysql_query("UPDATE transacciones SET 2='$var1' 7='$var2' WHERE rut=$rut");
 
@@ -138,18 +138,12 @@ session_start();
 			} else {
 				echo "Error updating record: ";
 			}
-			
-			
-         
+						        
                         
-		}
-                
-             
+		}                           
 		
 		?>
 	</div>
-	
-
 	 
 </body>
 </html>

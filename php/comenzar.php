@@ -46,9 +46,7 @@ session_start();
             <input type=submit name="btnContinuar" value="Continuar" required=""><br>
 	</div>
             
-        </form>
-	
-        
+        </form>        
         
         
         <?php 

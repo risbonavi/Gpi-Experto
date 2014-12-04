@@ -42,7 +42,7 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			<b>2) Usted va caminando por la calle y esta en presencia de un accidente, usted que haría:</b><br><br>
+			<b>2) Usted va caminando por la calle y esta en presencia de un accidente, ¿Usted que haría?</b><br><br>
 			<input type=radio name="pregunta2" value="10" checked="checked">a)	Pide ayuda rápidamente y espera instrucciones de la autoridad.<br>
 			<input type=radio name="pregunta2" value="5">b)	Llama a un amigo que sabe qué hacer en estas situaciones, para que realice las gestiones.<br>
 			<input type=radio name="pregunta2" value="20">c)	Pide ayuda y coordina que la gente no se acerque y moleste a los lesionados.<br>
@@ -59,7 +59,7 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			<b>4) Si se le presenta a usted un proyecto, que le fuera beneficioso, que decisión tomaría:</b><br><br>
+			<b>4) Si se le presenta a usted un proyecto, que le fuera beneficioso, ¿Qué decisión tomaría?</b><br><br>
 			
 			<input type=radio name="pregunta4" value="10" checked="checked">a) Se asesoraría con personas expertas en el tema antes de tomar un decisión.<br>
 			<input type=radio name="pregunta4" value="20">b) Tomaría el riesgo de tomar el proyecto sólo de acuerdo a sus experiencias previas.<br>
@@ -67,7 +67,7 @@ session_start();
 			</div>
 			<br>
 			<div class="preguntas">
-			<b>5) Si su empresa está entrando en una crisis y tiene opciones para definir el futuro de ésta, cuál de las siguientes opciones tomaría usted:</b><br><br>
+			<b>5) Si su empresa está entrando en una crisis y tiene opciones para definir el futuro de ésta, ¿Cuál de las siguientes opciones tomaría usted?</b><br><br>
 			
 			<input type=radio name="pregunta5"  value="5" checked="checked">a)	Vender la empresa.<br>
 			<input type=radio name="pregunta5" value="10">b)	Reducir personal para reducir costos de la empresa, para salvarla.<br>
@@ -83,17 +83,11 @@ session_start();
 			<input type=radio name="pregunta6" value="20">c)	Funcionan mejor mantienen a las personas más centradas en sus objetivos.<br>
 			</div>
 			<br>
-
-			
-			
-                       
-			<p><input type="submit" value="Continuar" name="btnContinuar"></p>
-			
+			                       
+			<p><input type="submit" value="Continuar" name="btnContinuar"></p>		
 		
 
 		    </form>
-
-
 		
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
@@ -123,7 +117,7 @@ session_start();
 			}
 			else if($suma>100 && $suma<=120)
 			{
-				echo "<script language='JavaScript'>location = 'cliente_Estrategico.php'</script>";
+				echo "<script language='JavaScript'>location = 'cliente_estrategico.php'</script>";
 				$tipo=3;
 			}
 			else{echo "fuera del rango";}

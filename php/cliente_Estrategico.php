@@ -34,7 +34,7 @@ session_start();
 			
 			<!--analitico-->
 			<div class="preguntas">
-                        <b>Si un amigo de usted se encuentra gravemente enfermo, y recure a usted para pedir consejo:</b>			
+                        <b>Si un amigo de usted se encuentra gravemente enfermo, ¿A donde recurriría usted?:</b>			
 			<br> <br>
 			<input type=radio name="pregunta1" value="0" checked="checked">a)	Usted lo lleva a distintos especialistas, hasta dar con el indicado y así tratar su problema.<br>
 			<input type=radio name="pregunta1" value="1">b)	Lo lleva hacia un médico general, para que identifique el origen de la enfermedad y así lo derive a un especialista.<br>
@@ -52,7 +52,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>Cuando estas esperando en un semaforo</b>
+                        <b>Cuando estas esperando en un semaforo:</b>
 			<br> <br>
 			<input type=radio name="pregunta3" value="0" checked="checked">a) Esperas a que cambie para seguir.<br>
 			<input type=radio name="pregunta3" value="1">b)	Te fijas mientras esperas en cuanto tiempo y de que forma salir mas rapidamente.<br>
@@ -80,7 +80,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>En cuanto al trabajo, siempre busca:</b>
+                        <b>En cuanto al trabajo, usted siempre busca:</b>
 			<br> <br>
 			<input type=radio name="pregunta10" value="0" checked="checked">a)	Cumplir con las tareas que se le entregan.<br>
 			<input type=radio name="pregunta10" value="1">b)	Ascender de cargo rapidamente.<br>
