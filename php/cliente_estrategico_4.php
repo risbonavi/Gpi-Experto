@@ -35,7 +35,7 @@ session_start();
 			
 			<!--Mandatario-->
 			<div class="preguntas">
-			Estas a cargo de un proyecto, ¿cuál es tu forma de decidir la manera en que lo harán?
+                        <b>Estas a cargo de un proyecto, ¿cuál es tu forma de decidir la manera en que lo harán?</b>
 			<br> <br>
 			<input type=radio name="pregunta45" value="0" checked="checked">a) Lo discutimos entre todos y elegimos cual es la mejor idea.<br>
 			<input type=radio name="pregunta45" value="1">b) Sé cómo abordarlo, le informo a mi grupo de trabajo la forma en que lo haremos.<br>
@@ -43,8 +43,8 @@ session_start();
 			</div>
 			<br>
                         
-            <div class="preguntas">
-			En la asociación de fútbol en usted participa sus compañeros y demás socios lo postulan como el candidato ideal para que usted dirige el club. ¿Cual es la actitud que tomaría?
+                        <div class="preguntas">
+                            <b>En la asociación de fútbol en usted participa sus compañeros y demás socios lo postulan como el candidato ideal para que usted dirige el club. ¿Cual es la actitud que tomaría?</b>
 
 			<br> <br>
 			<input type=radio name="pregunta46" value="0" checked="checked">a) Usted rechazaria el puesto ya que tiene dudas de como poder ejercer su cargo.<br>
@@ -53,8 +53,8 @@ session_start();
 			</div>
 			<br>
                         
-            <div class="preguntas">
-			Si quisiera irse de paseo con sus amistades,  pero quiere ir a un lugar que le gusta demasiado, pero ellos no quieren ir al mismo lugar que Ud. ¿Qué haría?.
+                        <div class="preguntas">
+                        <b>Si quisiera irse de paseo con sus amistades,  pero quiere ir a un lugar que le gusta demasiado, pero ellos no quieren ir al mismo lugar que Ud. ¿Qué haría?.</b>
 			<br> <br>
 			<input type=radio name="pregunta47" value="0" checked="checked">a) Iría al lugar donde vaya la mayoría.<br>
 			<input type=radio name="pregunta47" value="1">b) Saldría por su cuenta.<br>
@@ -65,7 +65,7 @@ session_start();
 
 			<!--Responsable-->
 			<div class="preguntas">
-			Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntaran en cierta estación del metro:
+                        <b>Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntaran en cierta estación del metro:</b>
 			<br> <br>
 			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
 			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
@@ -73,8 +73,8 @@ session_start();
 			</div>
 			<br>
                         
-			<div class="preguntas">
-			Usted tiene planificado una junta con uno de sus amigos, pero ocurre un pequeño problema, usted se ha quedado dormido, por lo visto usted no llegaría a la hora y es probable también que no alcance a llegar.¿ Que haría usted en esta situación?
+			<div class="preguntas">                            
+                        <b>Usted tiene planificado una junta con uno de sus amigos, pero ocurre un pequeño problema, usted se ha quedado dormido, por lo visto usted no llegaría a la hora y es probable también que no alcance a llegar.¿ Que haría usted en esta situación?</b>
 			<br> <br>
 			<input type=radio name="pregunta50" value="0" checked="checked"> No me preocupo por mi amigo y lo dejó plantado.<br>
 			<input type=radio name="pregunta50" value="0">Pienso en llamarlo pero, sé que me esperara así que no lo hago.<br>
@@ -82,8 +82,8 @@ session_start();
 			</div>
 			<br>
                         
-            <div class="preguntas">
-			Si tiene que realizar una tarea para su trabajo, pero se encuentra sumamente cansado. ¿Que decidiría?
+                        <div class="preguntas">
+                        <b>Si tiene que realizar una tarea para su trabajo, pero se encuentra sumamente cansado. ¿Que decidiría?</b>
 			<br> <br>
 			<input type=radio name="pregunta51" value="0" checked="checked">a) Dormiría porque sin cansancio rindo mejor. <br>
 			<input type=radio name="pregunta51" value="1">b) Haría la tarea aunque no rinda lo suficiente. <br>

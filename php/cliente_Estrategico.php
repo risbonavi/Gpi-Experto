@@ -34,7 +34,7 @@ session_start();
 			
 			<!--analitico-->
 			<div class="preguntas">
-			Si un amigo de usted se encuentra gravemente enfermo, y recure a usted para pedir consejo:			
+                        <b>Si un amigo de usted se encuentra gravemente enfermo, y recure a usted para pedir consejo:</b>			
 			<br> <br>
 			<input type=radio name="pregunta1" value="0" checked="checked">a)	Usted lo lleva a distintos especialistas, hasta dar con el indicado y así tratar su problema.<br>
 			<input type=radio name="pregunta1" value="1">b)	Lo lleva hacia un médico general, para que identifique el origen de la enfermedad y así lo derive a un especialista.<br>
@@ -43,70 +43,66 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-			¿Cuántos meses tienen 28 días?
+                        <b>¿Cuántos meses tienen 28 días?</b>
 			<br> <br>
 			<input type=radio name="pregunta2" value="0" checked="checked">a) Ningún mes.<br>
-			<input type=radio name="pregunta2" value="0">b)	Un mes<br>
-			<input type=radio name="pregunta2" value="1">c)	Es otra la respuesta<br>
+			<input type=radio name="pregunta2" value="0">b)	Un mes.<br>
+			<input type=radio name="pregunta2" value="1">c)	Es otra la respuesta.<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
-			Cuando estas esperando en un semaforo
+                        <b>Cuando estas esperando en un semaforo</b>
 			<br> <br>
-			<input type=radio name="pregunta3" value="0" checked="checked">a) Esperas a que cambie para seguir<br>
-			<input type=radio name="pregunta3" value="1">b)	Te fijas mientras esperas en cuanto tiempo y de que forma salir mas rapidamente<br>
-			<input type=radio name="pregunta3" value="0">c)	Usted espera relajadamete escuchando musica<br>
+			<input type=radio name="pregunta3" value="0" checked="checked">a) Esperas a que cambie para seguir.<br>
+			<input type=radio name="pregunta3" value="1">b)	Te fijas mientras esperas en cuanto tiempo y de que forma salir mas rapidamente.<br>
+			<input type=radio name="pregunta3" value="0">c)	Usted espera relajadamete escuchando musica.<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
-			¿Que numero sigue en la serie? 36,12,42,14... 
+                        <b>¿Que numero sigue en la serie? 36,12,42,14... </b>
 			<br> <br>
-			<input type=radio name="pregunta4" value="0" checked="checked">56<br>
-			<input type=radio name="pregunta4" value="0">28<br>
-			<input type=radio name="pregunta4" value="1">54<br>
+			<input type=radio name="pregunta4" value="0" checked="checked">56.<br>
+			<input type=radio name="pregunta4" value="0">28.<br>
+			<input type=radio name="pregunta4" value="1">54.<br>
 			</div>
 			<br>
-			
-			
-			
-			
 			<!--Competitivo-->
 			
 			<div class="preguntas">
-			En una competencia fisica, usted 
+                        <b>En una competencia fisica, usted:</b>
 			<br> <br>
-			<input type=radio name="pregunta9" value="1" checked="checked">a)	busca ser siempre el primero<br>
-			<input type=radio name="pregunta9" value="0">b)	prefiere dejar ganar a los demás<br>
-			<input type=radio name="pregunta9" value="0">c)	prefiere dejar ganar a su amigo que le cuesta mas.<br>
+			<input type=radio name="pregunta9" value="1" checked="checked">a)	Busca ser siempre el primero.<br>
+			<input type=radio name="pregunta9" value="0">b)	Prefiere dejar ganar a los demás.<br>
+			<input type=radio name="pregunta9" value="0">c)	Prefiere dejar ganar a su amigo que le cuesta mas.<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
-			En cuanto al trabajo, siempre busca:
+                        <b>En cuanto al trabajo, siempre busca:</b>
 			<br> <br>
-			<input type=radio name="pregunta10" value="0" checked="checked">a)	cumplir con las tareas que se le entregan<br>
-			<input type=radio name="pregunta10" value="1">b)	asender de cargo rapidamente<br>
-			<input type=radio name="pregunta10" value="0">c)	aprender nuevas tecnicas de desarrollo personal<br>
+			<input type=radio name="pregunta10" value="0" checked="checked">a)	Cumplir con las tareas que se le entregan.<br>
+			<input type=radio name="pregunta10" value="1">b)	Ascender de cargo rapidamente.<br>
+			<input type=radio name="pregunta10" value="0">c)	Aprender nuevas tecnicas de desarrollo personal.<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
-			Cuando usted pierde en alguna competencia:
+			<b>Cuando usted pierde en alguna competencia:</b>
 			<br> <br>
-			<input type=radio name="pregunta11" value="0" checked="checked">a)	Se deprime<br>
-			<input type=radio name="pregunta11" value="0">b)	Le da igual<br>
-			<input type=radio name="pregunta11" value="1">c)	Me motiva a esformame mas<br>
+			<input type=radio name="pregunta11" value="0" checked="checked">a)	Se deprime.<br>
+			<input type=radio name="pregunta11" value="0">b)	Le da igual.<br>
+			<input type=radio name="pregunta11" value="1">c)	Me motiva a esforzarme mas.<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
-			Usted busca demostrar sus logros a los demas
+			<b>¿Usted busca demostrar sus logros a los demas?</b>
 			<br> <br>
-			<input type=radio name="pregunta12" value="1" checked="checked">a)	Si, porque me agrada ser el mejor <br>
-			<input type=radio name="pregunta12" value="0">b)	Le da igual<br>
-			<input type=radio name="pregunta12" value="0">c)	No, perfiero que mi grupo se destaque<br>
+			<input type=radio name="pregunta12" value="1" checked="checked">a)	Si, porque me agrada ser el mejor.<br>
+			<input type=radio name="pregunta12" value="0">b)	Me da igual.<br>
+			<input type=radio name="pregunta12" value="0">c)	No, perfiero que mi grupo se destaque.<br>
 			</div>
 			<br>
 			
@@ -137,7 +133,7 @@ session_start();
                         if($competitivo>=3)
                         $competitivo = true;
 						
-			echo "<script language='JavaScript'>location = 'cliente_Estrategico2.php?ana=$analitico&comp=$competitivo'</script>";
+			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?ana=$analitico&comp=$competitivo'</script>";
       
 		}
                 

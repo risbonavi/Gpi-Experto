@@ -34,23 +34,23 @@ session_start();
 			
 			<!--Flexible-->
 			<div class="preguntas">
-			¿Alguna vez haz  viajado ”mochileando”?<br> <br>
+                        <b>¿Alguna vez haz  viajado ”mochileando”?<br> <br></b>
 			<input type=radio name="pregunta37" value="0" checked="checked">a)	No me atrevo a hacerlo, me gusta organizar bien mis viajes.	<br>
 			<input type=radio name="pregunta37" value="1">b)	Si lo he hecho, me gusta la idea de no saber cómo llegare a mi destino.<br>
 			<input type=radio name="pregunta37" value="0">c)	Aun no lo hago, pero tengo intenciones de hacerlo pronto.	<br>
 			</div>
 			<br>
 
-            <div class="preguntas">
-			¿Cuánto tardas en prepararte (ducharte, vestirte, etc.) para ir a algun evento?<br> <br>
+                        <div class="preguntas">
+                        <b>¿Cuánto tardas en prepararte (ducharte, vestirte, etc.) para ir a algun evento?<br> <br></b>
 			<input type=radio name="pregunta38" value="0" checked="checked"> a)	15 o 20 minutos.<br>
 			<input type=radio name="pregunta38" value="0"> b)	20 a 30 minutos.<br>
 			<input type=radio name="pregunta38" value="1">c)	Más de 30 minutos. <br>
 			</div>
 			<br>
                         
-            <div class="preguntas">
-			En una cita con una persona que sea de su interés:
+                        <div class="preguntas">
+                        <b>En una cita con una persona que sea de su interés:</b>
 			<br> <br>
 			<input type=radio name="pregunta39" value="0" checked="checked">a) Prefiere que sea planificada.<br>
 			<input type=radio name="pregunta39" value="1">b) Que sea espontanea.<br>
@@ -62,7 +62,7 @@ session_start();
 			
 			<!--Futurista-->
 			<div class="preguntas">
-			Acaba de recibir una herencia inesperadamente ¿Que harìa usted ante esta situación?
+                        <b>Acaba de recibir una herencia inesperadamente ¿Que harìa usted ante esta situación?</b>
 			<br> <br>
 			<input type=radio name="pregunta41" value="0" checked="checked">a) Regalo todo mi dinero a obras beneficas.<br>
 			<input type=radio name="pregunta41" value="0">b) Me gasto el dinero en lo que siempre soñe tener.<br>
@@ -70,8 +70,8 @@ session_start();
 			</div>
 			<br>
                         
-            <div class="preguntas">
-			Usted a pensado en el futuro, divagando
+                        <div class="preguntas">
+                        <b>Usted a pensado en el futuro, divagando</b>
 			<br> <br>
 			<input type=radio name="pregunta42" value="0" checked="checked"> No, prefiero centranme en vivir dia a dia.<br>
 			<input type=radio name="pregunta42" value="1"> Si, siempre creo imagenes de lo podria llegar a realizar.<br>
@@ -79,8 +79,8 @@ session_start();
 			</div>
 			<br>
                         
-            <div class="preguntas">
-			Antes de salir de su hogar, usted:
+                        <div class="preguntas">
+                        <b>Antes de salir de su hogar, usted:</b>
 			<br> <br>
 			<input type=radio name="pregunta43" value="0" checked="checked"> Planifica detalladamente.<br>
 			<input type=radio name="pregunta43" value="1"> Se imagina como sera su dia.<br>
@@ -116,7 +116,7 @@ session_start();
                         if($armonico>=3)
                             $armonico = true;
                         
-            echo "<script language='JavaScript'>location = 'cliente_Estrategico4.php?ana=$analitico&comp=$competitivo'</script>";
+            echo "<script language='JavaScript'>location = 'cliente_estrategico_4.php?ana=$analitico&comp=$competitivo'</script>";
 		}
                 
                 

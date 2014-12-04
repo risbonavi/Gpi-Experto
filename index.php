@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE HTML>
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <title>Sistema Experto</title>
+   <title>Sistema Experto:GPI</title>
      
    <!--para el menu-->
    <!--<link rel='stylesheet' type='text/css' href='styles_menu.css' />-->
@@ -20,13 +20,13 @@ session_start();
 <?php
 	//if(isset($_SESSION["userx"])){
 ?>
-	<div class="bienvenida"><h3>Sistema Experto <?php echo @$_SESSION['userx'];?></h3></div>
+	<div class="bienvenida"><h3>Sistema Experto<?php echo @$_SESSION['userx'];?></h3></div>
 	</br>
 	
 	<div id='cssmenu'>
 <ul>
    <li><a href='index.php'>Inicio</a></li>
-   <li><a href='php/cliente.php'>Cliente</a></li>
+   <li><a href='php/cliente.php'>Postulante</a></li>
    <li><a href='php/gerente.php'>Gerente</a></li>
    
 </ul>

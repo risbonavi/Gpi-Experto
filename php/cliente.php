@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE HTML>
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <title>Test</title>
+   <title>Test Postulante</title>
 
    <!--para el menu-->
    <!--<link rel='stylesheet' type='text/css' href='styles_menu.css' />-->
@@ -27,9 +27,6 @@ session_start();
 	?>
 	
     
-
-
-
 	<div class="bienvenida">
 		
 		<p><div class="formulario"><b>Test</b></div></p>
