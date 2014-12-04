@@ -87,7 +87,7 @@ session_start();
 			
 			
                        
-			<p><input type="submit" value="Enviar" name="btnContinuar"></p>
+			<p><input type="submit" value="Continuar" name="btnContinuar"></p>
 			
 		
 
@@ -96,7 +96,7 @@ session_start();
 
 		
 		<?php 
-		if(@$_REQUEST['btnContinuar']=="Enviar"){
+		if(@$_REQUEST['btnContinuar']=="Continuar"){
 			echo "boris qlo";
 			$p1 = $_POST['pregunta1'];
 			$p2 = $_POST['pregunta2'];
