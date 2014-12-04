@@ -98,25 +98,24 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
 			
-			$p1 = $_POST['pregunta1'];
-			$p2 = $_POST['pregunta2'];
-			$p3 = $_POST['pregunta3'];
-			$p4 = $_POST['pregunta4'];
+			$p1 = $_POST['pregunta37'];
+			$p2 = $_POST['pregunta38'];
+			$p3 = $_POST['pregunta39'];
                         
-                        $analitico = $p1+$p2+$p3+$p4;
-                        if($analitico>=3)
-                            $analitico = true;
+                        $flexible = $p1+$p2+$p3;
                         
-                        $p1 = $_POST['pregunta5'];
-			$p2 = $_POST['pregunta6'];
-			$p3 = $_POST['pregunta7'];
-			$p4 = $_POST['pregunta8'];
                         
-                        $armonico = $p1+$p2+$p3+$p4;
-                        if($armonico>=3)
-                            $armonico = true;
+                        $p1 = $_POST['pregunta41'];
+			$p2 = $_POST['pregunta42'];
+			$p3 = $_POST['pregunta43'];
                         
-            echo "<script language='JavaScript'>location = 'cliente_estrategico_4.php?ana=$analitico&comp=$competitivo'</script>";
+                        $futurista = $p1+$p2+$p3;
+                        $ana = $_GET['ana'];
+                        $comp = $_GET['comp'];
+                        $emp = $_GET['emp'];
+                        $com = $_GET['com'];
+                        
+            echo "<script language='JavaScript'>location = 'cliente_estrategico_4.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$futurista&flex=$flexible'</script>";
 		}
                 
                 

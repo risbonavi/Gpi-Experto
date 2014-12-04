@@ -121,8 +121,7 @@ session_start();
 			$p4 = $_POST['pregunta4'];
                         
                         $analitico = $p1+$p2+$p3+$p4;
-                        if($analitico>=3)
-                            $analitico = true;
+                        
             
 			$p1 = $_POST['pregunta9'];
 			$p2 = $_POST['pregunta10'];
@@ -130,8 +129,7 @@ session_start();
 			$p4 = $_POST['pregunta12'];
                         
                         $competitivo = $p1+$p2+$p3+$p4;
-                        if($competitivo>=3)
-                        $competitivo = true;
+                        
 						
 			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?ana=$analitico&comp=$competitivo'</script>";
       

@@ -105,27 +105,29 @@ session_start();
 		
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
+                        
+                    
 			
 			$p1 = $_POST['pregunta13'];
 			$p2 = $_POST['pregunta14'];
 			$p3 = $_POST['pregunta15'];
 			                        
-                        $analitico = $p1+$p2+$p3;
-                        if($analitico>=2)
-                            $analitico = true;
+                        $emprendedor = $p1+$p2+$p3;
+                        
                         
                         
 			$p1 = $_POST['pregunta33'];
 			$p2 = $_POST['pregunta34'];
 			$p3 = $_POST['pregunta35'];
                         
-                        $armonico = $p1+$p2+$p3;
-                        if($armonico>=2)
-                            $armonico = true;
+                        $comunicador = $p1+$p2+$p3;
+                       
+                        $ana = $_GET['ana'];
+                        $comp = $_GET['comp'];
                         
        
 							
-				echo "<script language='JavaScript'>location = 'cliente_estrategico_3.php?ana=$analitico&comp=$competitivo'</script>";
+				echo "<script language='JavaScript'>location = 'cliente_estrategico_3.php?ana=$ana&comp=$comp&emp=$emprendedor&com=$comunicador'</script>";
 				
 		}
                 
