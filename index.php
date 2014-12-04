@@ -20,7 +20,7 @@ session_start();
 <?php
 	//if(isset($_SESSION["userx"])){
 ?>
-	<div class="bienvenida"><h3>Bienvenido <?php echo @$_SESSION['userx'];?></h3></div>
+	<div class="bienvenida"><h3>Sistema Experto <?php echo @$_SESSION['userx'];?></h3></div>
 	</br>
 	
 	<div id='cssmenu'>
@@ -35,9 +35,9 @@ session_start();
 	
 	<div class="bienvenida">
 		
-		<p><div class="formulario"><b>Eliga Opción</b></div></p>
+		<p><div class="formulario"><b>Bienvenido</b></div></p>
 		
-
+        <img src="images/inteligencia-artificial.png" >
 		
 
 		
