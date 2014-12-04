@@ -25,8 +25,13 @@ session_start();
 	
 	<div id='cssmenu'>
 <ul>
+<<<<<<< HEAD
    <li><a href='index.php'>Inicio</a></li>
    <li><a href='php/cliente.php'>Postulante</a></li>
+=======
+    <li><a href='index.php'>Inicio</a></li>
+   <li><a href='php/ingreso.php'>Cliente</a></li>
+>>>>>>> origin/master
    <li><a href='php/gerente.php'>Gerente</a></li>
    
 </ul>
