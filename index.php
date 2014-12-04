@@ -25,9 +25,14 @@ session_start();
 	
 	<div id='cssmenu'>
 <ul>
+<<<<<<< HEAD
 
     <li><a href='index.php'>Inicio</a></li>
    <li><a href='php/ingreso.php'>Cliente</a></li>
+=======
+   <li><a href='index.php'>Inicio</a></li>
+   <li><a href='php/ingreso.php'>Postulante</a></li>
+>>>>>>> origin/master
    <li><a href='php/gerente.php'>Gerente</a></li>
    
 </ul>
@@ -38,7 +43,7 @@ session_start();
 		
 		<p><div class="formulario"><b>Bienvenido</b></div></p>
 		
-        <img src="images/inteligencia-artificial.png" >
+        <img src="images/inteligencia-artificial.png" width="800" height="600" >
 		
 
 		

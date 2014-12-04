@@ -34,18 +34,33 @@ session_start();
             <div class="bienvenida">
 		
             <h2>Ingrese sus Datos</h2>
-            <div>
-                <strong>Ingrese sus Nombres : </strong> 
-            <input type="text" name=nombres" required=""><br>
-                <strong>Ingrese sus Apellidos : </strong>
-            <input type="text" name=apellidos" required=""><br>
-                <strong>Ingrese su Rut : </strong>
-            <input type="text" name=rut"><br>
-                <strong>Ingrese su Email : </strong>
-            <input type="text" name=email"><br>
-            </div>
+            <div class="centrar">
+				<table style="width:100%;">
+				  <tr>
+					<th><strong>Ingrese sus Nombres : </strong> </th>
+					<th><input type="text" name=nombres" required=""><br></th>
+				  </tr>
+				  <tr>
+					<td><strong>Ingrese sus Apellidos : </strong></td>
+					<td><input type="text" name=apellidos" required=""><br></td>
+				  </tr>
+				  
+				  <tr>
+					<td><strong>Ingrese su Rut : </strong></td>
+					<td><input type="text" name=rut"><br></td>
+				  </tr>
+				  
+				  <tr>
+					<td><strong>Ingrese su Email : </strong></td>
+					<td><input type="text" name=email"><br></td>
+				  </tr>
+				  
+				</table>
+                <br>
             
-            <input type=submit name="btnContinuar" value="Continuar" required=""><br>
+            
+				<input type=submit name="btnContinuar" value="Continuar" required=""><br>
+			</div>
 	</div>
             
         </form>
