@@ -52,7 +52,7 @@ session_start();
         <?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
 			$rut= $_GET['rut'];
-                        echo "<script language='JavaScript'>location = 'cliente.php?rut=$rut'</script>";
+                        echo "<script language='JavaScript'>location = 'cliente.php'</script>";
                 }
 		
 		?>

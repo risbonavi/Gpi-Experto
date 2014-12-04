@@ -79,21 +79,9 @@ session_start();
 		$sql1 = "INSERT INTO encuestados VALUES ('','".$nombres."','".$apellidos."','".$rut."','".$email."')"; 
 		mysql_query($sql1);
 		
-		$sql2 = "INSERT INTO transacciones VALUES ('','".$rut."','','','','','','','','','','','','','','','')"; 
-		mysql_query($sql2);
 		
-		
-		$sql3 =  mysql_query("Select id_transacciones From transacciones  where rut='$rut'"); 
-		
-		if(mysql_num_rows($sql3)>0)
-		{ 
-			while($datos = mysql_fetch_array($sql3)){
-				$numero = $datos['id_transacciones'];}
-				echo $numero;
-				echo "<script language='JavaScript'>location = 'comenzar.php?rut=$rut&num=$numero'</script>";
-		}else{
-				echo "No Existen datos";
-		}
+	
+				echo "<script language='JavaScript'>location = 'comenzar.php'</script>";
 		
 		}
 		

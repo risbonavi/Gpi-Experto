@@ -129,14 +129,8 @@ session_start();
 							
 			            echo "<script language='JavaScript'>location = 'resultados.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$fut&flex=$flex&man=$mandatario&res=$responsable'</script>";
 
-		}
-                
-                
-                
-                if($analitico = true && $emprendedor = true && $desarrollador = true)
-                        $cargo ='Gerente';
-		
-		?>
+		}?>
+               
 	</div>
 	
 
