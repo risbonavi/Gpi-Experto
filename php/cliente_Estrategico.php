@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE HTML>
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <title>Test2</title>
+   <title>Test de Postulacion</title>
 
    <!--para el menu-->
    <!--<link rel='stylesheet' type='text/css' href='styles_menu.css' />-->
@@ -121,8 +121,7 @@ session_start();
 			$p4 = $_POST['pregunta4'];
                         
                         $analitico = $p1+$p2+$p3+$p4;
-                        if($analitico>=3)
-                            $analitico = true;
+                        
             
 			$p1 = $_POST['pregunta9'];
 			$p2 = $_POST['pregunta10'];
@@ -130,8 +129,7 @@ session_start();
 			$p4 = $_POST['pregunta12'];
                         
                         $competitivo = $p1+$p2+$p3+$p4;
-                        if($competitivo>=3)
-                        $competitivo = true;
+                        
 						
 			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?ana=$analitico&comp=$competitivo'</script>";
       

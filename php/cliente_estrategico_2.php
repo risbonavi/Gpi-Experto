@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE HTML>
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <title>Test2</title>
+   <title>Test de Postulacion</title>
 
    <!--para el menu-->
    <!--<link rel='stylesheet' type='text/css' href='styles_menu.css' />-->
@@ -105,27 +105,36 @@ session_start();
 		
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
+                        
+                    
 			
 			$p1 = $_POST['pregunta13'];
 			$p2 = $_POST['pregunta14'];
 			$p3 = $_POST['pregunta15'];
+                        $p4 = $_POST['pregunta16'];
 			                        
-                        $analitico = $p1+$p2+$p3;
+<<<<<<< HEAD
+                        $emprendedor = $p1+$p2+$p3;
+                        
+=======
+                        $analitico = $p1+$p2+$p3+$sp4;
                         if($analitico>=2)
                             $analitico = true;
+>>>>>>> origin/master
                         
                         
 			$p1 = $_POST['pregunta33'];
 			$p2 = $_POST['pregunta34'];
 			$p3 = $_POST['pregunta35'];
                         
-                        $armonico = $p1+$p2+$p3;
-                        if($armonico>=2)
-                            $armonico = true;
+                        $comunicador = $p1+$p2+$p3;
+                       
+                        $ana = $_GET['ana'];
+                        $comp = $_GET['comp'];
                         
        
 							
-				echo "<script language='JavaScript'>location = 'cliente_estrategico_3.php?ana=$analitico&comp=$competitivo'</script>";
+				echo "<script language='JavaScript'>location = 'cliente_estrategico_3.php?ana=$ana&comp=$comp&emp=$emprendedor&com=$comunicador'</script>";
 				
 		}
                 

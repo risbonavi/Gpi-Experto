@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE HTML>
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <title>Test2</title>
+   <title>Test de Postulacion</title>
 
    <!--para el menu-->
    <!--<link rel='stylesheet' type='text/css' href='styles_menu.css' />-->
@@ -102,26 +102,35 @@ session_start();
 		if(@$_REQUEST['btnFinalizar']=="Finalizar"){
 			
             
-            $p1 = $_POST['pregunta45'];
+                        $p1 = $_POST['pregunta45'];
 			$p2 = $_POST['pregunta46'];
 			$p3 = $_POST['pregunta47'];
 			
                         
                         $mandatario = $p1+$p2+$p3;
-                        if($mandatario>=3)
-                            $mandatario = true;
                         
-            $p1 = $_POST['pregunta49'];
+                        
+                        $p1 = $_POST['pregunta49'];
 			$p2 = $_POST['pregunta50'];
 			$p3 = $_POST['pregunta51'];
 			
                         
                         $responsable = $p1+$p2+$p3;
-                        if($responsable>=3)
-                            $responsable = true;
+                        
+                        
+                        
+                        $ana = $_GET['ana'];
+                        $comp = $_GET['comp'];
+                        $emp = $_GET['emp'];
+                        $com = $_GET['com'];
+                        $fut = $_GET['fut'];
+                        $flex = $_GET['flex'];
+                        
 							
-			echo "<script language='JavaScript'>location = '../index.php'</script>";
+			            echo "<script language='JavaScript'>location = 'resultados.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$fut&flex=$flex&man=$mandatario&res=$responsable'</script>";
+
 		}
+                
                 
                 
                 if($analitico = true && $emprendedor = true && $desarrollador = true)

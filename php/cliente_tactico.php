@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE HTML>
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <title>Test2</title>
+   <title>Test de Postulacion</title>
 
    <!--para el menu-->
    <!--<link rel='stylesheet' type='text/css' href='styles_menu.css' />-->
@@ -34,7 +34,7 @@ session_start();
 			
 			<!analitico 4 ok>
 			<div class="preguntas">
-                            <strong>Si un amigo de usted se encuentra gravemente enfermo, y recure a usted para pedir consejo:	</strong>		
+                            <strong>Si un amigo de usted se encuentra gravemente enfermo, y recurre a usted para pedir consejo:	</strong>		
 			<br> <br>
 			<input type=radio name="pregunta1" value="0" checked="checked">a)	Usted lo lleva a distintos especialistas, hasta dar con el indicado y así tratar su problema.<br>
 			<input type=radio name="pregunta1" value="1">b)	Lo lleva hacia un médico general, para que identifique el origen de la enfermedad y así lo derive a un especialista.<br>
