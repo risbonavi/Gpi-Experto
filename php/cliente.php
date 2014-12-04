@@ -89,15 +89,18 @@ session_start();
 
 			
 			
-                        <a href='cliente_test2.php' name="btnContinuar">Continuar</a>
+                       
+			<p><input type="submit" value="Enviar" name="btnContinuar"></p>
+			
+		
 
 		    </form>
 
 
 		
 		<?php 
-		if(@$_REQUEST['btnContinuar']=="Continuar"){
-			
+		if(@$_REQUEST['btnContinuar']=="Enviar"){
+			echo "boris qlo";
 			$p1 = $_POST['pregunta1'];
 			$p2 = $_POST['pregunta2'];
 			$p3 = $_POST['pregunta3'];
@@ -112,17 +115,18 @@ session_start();
 			$tipo=0;
 			if($suma>0 && $suma<=59)
 			{
-				echo "operacional";
+                           
+				echo "<script language='JavaScript'>location = 'cliente_operacional.php'</script>";
 				$tipo=1;
 			}
 			else if($suma>60 && $suma<=99)
 			{
-				echo "tactico";
+				echo "<script language='JavaScript'>location = 'cliente_tactico.php'</script>";
 				$tipo=2;
 			}
 			else if($suma>100 && $suma<=120)
 			{
-				echo "estrategico";
+				echo "<script language='JavaScript'>location = 'cliente_Estrategico.php'</script>";
 				$tipo=3;
 			}
 			else{echo "fuera del rango";}
