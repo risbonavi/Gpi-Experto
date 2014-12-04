@@ -38,10 +38,7 @@ session_start();
 		<p><div class="formulario"><b>Eliga Opción</b></div></p>
 		
 
-		<form method="POST" action="">
-			<p><input type="submit" value="Cliente" name="cliente"></p>
-			<p><input type="submit" value="Gerente" name="gerente"></p>
-		</form>
+		
 
 		
 		<?php 
