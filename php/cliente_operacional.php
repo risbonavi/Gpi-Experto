@@ -118,9 +118,8 @@ session_start();
                         $p1 = $_POST['pregunta25'];
 			$p2 = $_POST['pregunta26'];
 			$p3 = $_POST['pregunta27'];
-			$p4 = $_POST['pregunta28'];
                         
-                        $disciplinado = $p1+$p2+$p3+$p4;
+                        $disciplinado = $p1+$p2+$p3;
                         if($disciplinado>=3)
                             $disciplinado = true;
 

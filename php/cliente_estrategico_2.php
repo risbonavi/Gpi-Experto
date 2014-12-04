@@ -111,9 +111,16 @@ session_start();
 			$p1 = $_POST['pregunta13'];
 			$p2 = $_POST['pregunta14'];
 			$p3 = $_POST['pregunta15'];
+                        $p4 = $_POST['pregunta16'];
 			                        
+<<<<<<< HEAD
                         $emprendedor = $p1+$p2+$p3;
                         
+=======
+                        $analitico = $p1+$p2+$p3+$sp4;
+                        if($analitico>=2)
+                            $analitico = true;
+>>>>>>> origin/master
                         
                         
 			$p1 = $_POST['pregunta33'];
