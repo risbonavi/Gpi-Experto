@@ -42,7 +42,7 @@ session_start();
 		
 		<p><div class="formulario"><b>Bienvenido</b></div></p>
 		
-        <img src="images/inteligencia-artificial.png" >
+        <img src="images/inteligencia-artificial.png" width="800" height="600" >
 		
 
 		
