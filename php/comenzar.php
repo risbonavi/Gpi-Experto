@@ -33,18 +33,16 @@ session_start();
             
             <div class="bienvenida">
 		
-            <h2>Ingrese sus Datos</h2>
+            <h2>Test</h2>
             <div>
-                <strong>Ingrese sus Nombres : </strong> 
-            <input type="text" name=nombres" required=""><br>
-                <strong>Ingrese sus Apellidos : </strong>
-            <input type="text" name=apellidos" required=""><br>
-                <strong>Ingrese su Rut : </strong>
-            <input type="text" name=rut"><br>
-                <strong>Ingrese su Email : </strong>
-            <input type="text" name=email"><br>
+                Bienvenido : "el nombre del wn en la base" <br>
+                
+                A continuación realizará un test, para analizar sus habilidades, aptitudes y competencias en base a sus respuestas, no tiene
+                tiempo limite para responder.
+                
+                
             </div>
-            
+            <br>
             <input type=submit name="btnContinuar" value="Continuar" required=""><br>
 	</div>
             
@@ -56,7 +54,7 @@ session_start();
         <?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
 			
-                        echo "<script language='JavaScript'>location = 'comenzar.php'</script>";
+                        echo "<script language='JavaScript'>location = 'cliente.php'</script>";
                 }
 		
 		?>
