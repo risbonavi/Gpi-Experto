@@ -24,6 +24,7 @@ session_start();
 
 	<?php
 	include ("../menu2.php");
+	include( "../conexion_db/conexion_db.php");
 	?>
 	
     
@@ -38,28 +39,28 @@ session_start();
 				<table style="width:100%;">
 				  <tr>
 					<th><strong>Ingrese sus Nombres : </strong> </th>
-					<th><input type="text" name=nombres" required=""><br></th>
+					<th><input type="text" name="nombres" required><br></th>
 				  </tr>
 				  <tr>
 					<td><strong>Ingrese sus Apellidos : </strong></td>
-					<td><input type="text" name=apellidos" required=""><br></td>
+					<td><input type="text" name="apellidos" required><br></td>
 				  </tr>
 				  
 				  <tr>
 					<td><strong>Ingrese su Rut : </strong></td>
-					<td><input type="text" name=rut"><br></td>
+					<td><input type="text" name="rut" required><br></td>
 				  </tr>
 				  
 				  <tr>
 					<td><strong>Ingrese su Email : </strong></td>
-					<td><input type="text" name=email"><br></td>
+					<td><input type="text" name="email" required><br></td>
 				  </tr>
 				  
 				</table>
                 <br>
             
             
-				<input type=submit name="btnContinuar" value="Continuar" required=""><br>
+				<input type="submit" name="btnContinuar" value="Continuar" required=""><br>
 			</div>
 	</div>
             
@@ -70,9 +71,31 @@ session_start();
         
         <?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
+			$nombres = $_POST['nombres'];
+			$apellidos = $_POST['apellidos'];
+			$rut = $_POST['rut'];
+			$email = $_POST['email'];
 			
-                        echo "<script language='JavaScript'>location = 'comenzar.php'</script>";
-                }
+		$sql1 = "INSERT INTO encuestados VALUES ('','".$nombres."','".$apellidos."','".$rut."','".$email."')"; 
+		mysql_query($sql1);
+		
+		$sql2 = "INSERT INTO transacciones VALUES ('','".$rut."','','','','','','','','','','','','','','','')"; 
+		mysql_query($sql2);
+		
+		
+		$sql3 =  mysql_query("Select id_transacciones From transacciones  where rut='$rut'"); 
+		
+		if(mysql_num_rows($sql3)>0)
+		{ 
+			while($datos = mysql_fetch_array($sql3)){
+				$numero = $datos['id_transacciones'];}
+				echo $numero;
+				echo "<script language='JavaScript'>location = 'comenzar.php?rut=$rut&num=$numero'</script>";
+		}else{
+				echo "No Existen datos";
+		}
+		
+		}
 		
 		?>
 	

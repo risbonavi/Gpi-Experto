@@ -32,7 +32,7 @@ session_start();
 		
          	<form method="POST" action="">
                     <div class="preguntas">
-                        <!--Armonico 4 ok -->
+             <!--Armonico 4 ok -->
 			<b>En el caso que en su empresa, le solicite a el personal retirarse temprano por fallas del sistema, pero con descuento de las horas no trabajadas, usted:</b>
 			<br> <br>
 			<input type=radio name="pregunta5" value="1" checked="checked">Acepta sin problemas, prefiere retirase antes.<br>
@@ -103,35 +103,41 @@ session_start();
 		    </form>		
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
-			
+			$rut= $_GET['rut'];
                         
-                        $p1 = $_POST['pregunta5'];
+            $p1 = $_POST['pregunta5'];
 			$p2 = $_POST['pregunta6'];
 			$p3 = $_POST['pregunta7'];
 			$p4 = $_POST['pregunta8'];
                         
-                        $armonico = $p1+$p2+$p3+$p4;
-                        if($armonico>=3)
-                            $armonico = true;
-                 
-                        
-                        $p1 = $_POST['pregunta25'];
+                        $var1 = $p1+$p2+$p3+$p4;
+                        if($var1>=3)
+                            $var1 = true;
+			
+            $p1 = $_POST['pregunta25'];
 			$p2 = $_POST['pregunta26'];
 			$p3 = $_POST['pregunta27'];
-			$p4 = $_POST['pregunta28'];
+			
                         
-                        $disciplinado = $p1+$p2+$p3+$p4;
-                        if($disciplinado>=3)
-                            $disciplinado = true;
+                        $var2 = $p1+$p2+$p3;
+                        if($var2>=3)
+                            $var2 = true;
 
+			$sql = mysql_query("UPDATE transacciones SET 2='$var1' 7='$var2' WHERE rut=$rut");
 
-         echo "<script language='JavaScript'>location = 'cliente_operacional_2.php'</script>";
+			if ($sql) {
+				echo "Record updated successfully";
+				echo "<script language='JavaScript'>location = 'cliente_operacional_2.php?rut=$rut'</script>";
+			} else {
+				echo "Error updating record: ";
+			}
+			
+			
+         
                         
 		}
                 
-                
-                if($analitico = true && $emprendedor = true && $desarrollador = true)
-                        $cargo ='Gerente';
+             
 		
 		?>
 	</div>
