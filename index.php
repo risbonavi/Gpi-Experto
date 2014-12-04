@@ -48,7 +48,7 @@ session_start();
 			//$destinoCarga = $_POST['destinoCarga'];
 			//include ("cliente.php");
 			//echo"hola clinte";
-			echo"<script language='JavaScript'>location='Clientes/cliente.php'</script>";
+			echo"<script language='JavaScript'>location='php/cliente.php'</script>";
 		}
 		
 		if(@$_REQUEST['gerente']=="Gerente"){
@@ -57,6 +57,7 @@ session_start();
 			//$destinoCarga = $_POST['destinoCarga'];
 			
 			echo"hola gerente";
+			echo"<script language='JavaScript'>location='php/gerente.php'</script>";
 		}
 		?>
 	</div>
