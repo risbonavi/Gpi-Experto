@@ -61,6 +61,7 @@ session_start();
 			echo"<script language='JavaScript'>location='php/gerente.php'</script>";
 		}
 		?>
+        <br><br>
 	</div>
 	
 

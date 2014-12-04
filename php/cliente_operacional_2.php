@@ -97,18 +97,16 @@ session_start();
                         $p1 = $_POST['pregunta29'];
 			$p2 = $_POST['pregunta30'];
 			$p3 = $_POST['pregunta31'];
-			$p4 = $_POST['pregunta32'];
                         
-                        $empatico = $p1+$p2+$p3+$p4;
+                        $empatico = $p1+$p2+$p3;
                         if($empatico>=3)
                             $empatico = true;
                                                 
                         $p1 = $_POST['pregunta49'];
 			$p2 = $_POST['pregunta50'];
 			$p3 = $_POST['pregunta51'];
-			$p4 = $_POST['pregunta52'];
                         
-                        $responsable = $p1+$p2+$p3+$p4;
+                        $responsable = $p1+$p2+$p3;
                         if($responsable>=3)
                             $responsable = true;
                         
