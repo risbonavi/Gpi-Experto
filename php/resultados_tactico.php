@@ -52,8 +52,6 @@ session_start();
                                 $cargo = 'Jefe de Atención al cliente';
                         if($ana >= 3 && $comp >= 2 && $dis >= 2 )
                                 $cargo = 'Representante de Ventas';
-                        if($ana >= 3 && $comp >= 2 && $emp>=2 && $man >= 2 && $res >=2)
-                                $cargo = 'Gerente Produccion';
                         if($ana >= 3 &&  $comp >= 2 && $com>=2 && $dis >= 2 && $man >= 2)
                                 $cargo = 'Supervisor de Planta';
                         if($ana >= 3 &&  $dis >= 2)
