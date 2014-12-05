@@ -59,7 +59,7 @@ session_start();
 			</div>
 			<br>
 			
-			<!Desarrollador 3 ok>
+			<!--Desarrollador 3 ok-->
 			<div class="preguntas">
 			 <strong>Si tuviera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demás, que haría usted:</strong>
 			<br> <br>
@@ -93,7 +93,7 @@ session_start();
 			
 
 			
-			<!Disiplinado 3 ok>
+			<!--Disiplinado 3 ok-->
 			<div class="preguntas">
 
 			 <strong>Cuando realizas una fiesta en tu casa, la mejor forma de hacerla es:</strong>
@@ -131,7 +131,32 @@ session_start();
 		
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
-			echo "<script language='JavaScript'>location = 'cliente_tactico_2.php'</script>";
+			//echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?anali=$analitico&competi=$competitivo&conect=$conector'</script>";
+			
+			$analitico = $_GET['anali'];
+			$competitivo = $_GET['competi'];
+					
+			
+			$p1 = $_GET['conect'];
+			$p2 = $_POST['pregunta18'];
+			$p3 = $_POST['pregunta19'];
+			$p4 = $_POST['pregunta20'];
+                        
+                        $conector = $p1+$p2+$p3+$p4;
+						
+			$p1 = $_POST['pregunta21'];
+			$p2 = $_POST['pregunta22'];
+			$p3 = $_POST['pregunta23'];
+			
+                        $desarrollador = $p1+$p2+$p3;
+						
+			$p1 = $_POST['pregunta25'];
+			$p2 = $_POST['pregunta26'];
+			$p3 = $_POST['pregunta27'];
+						
+						$Disiplinado = $p1+$p2+$p3;
+						
+			echo "<script language='JavaScript'>location = 'cliente_tactico_2.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado'</script>";
 			
 		}
                

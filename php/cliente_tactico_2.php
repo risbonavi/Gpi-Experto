@@ -34,7 +34,7 @@ session_start();
 			
                         
 			
-			<!Flexible 3 ok>
+			<!--Flexible 3 ok-->
 			<div class="preguntas">
 			 <strong>¿Alguna vez haz  viajado mochileando?</strong><br> <br>
 			<input type=radio name="pregunta37" value="0" checked="checked">a)	No me atrevo a hacerlo, me gusta organizar bien mis viajes.	<br>
@@ -61,7 +61,7 @@ session_start();
 			<br>
                         
 			
-			<!Mandatario 3 ok>
+			<!--Mandatario 3 ok-->
 			<div class="preguntas">
 			 <strong>Estas a cargo de un proyecto, ¿cuál es tu forma de decidir la manera en que lo harán?</strong>
 			<br> <br>
@@ -129,123 +129,32 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Finalizar"){
 			
+			//echo "<script language='JavaScript'>location = 'cliente_tactico_2.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado'</script>";
+			
+			$analitico = $_GET['anali'];
+			$competitivo = $_GET['competi'];
+			$conector = $_GET['conect'];
+			$desarrollador = $_GET['des'];
+			$Disiplinado = $_GET['disci'];
+			
 			$p1 = $_POST['pregunta1'];
 			$p2 = $_POST['pregunta2'];
 			$p3 = $_POST['pregunta3'];
 			$p4 = $_POST['pregunta4'];
                         
-                        $analitico = $p1+$p2+$p3+$p4;
-                        if($analitico>=3)
-                            $analitico = true;
+            $flexible = $p1+$p2+$p3+$p4;
+            
                         
-                        $p1 = $_POST['pregunta5'];
+            $p1 = $_POST['pregunta5'];
 			$p2 = $_POST['pregunta6'];
 			$p3 = $_POST['pregunta7'];
 			$p4 = $_POST['pregunta8'];
                         
-                        $armonico = $p1+$p2+$p3+$p4;
-                        if($armonico>=3)
-                            $armonico = true;
-                        
-                        $p1 = $_POST['pregunta9'];
-			$p2 = $_POST['pregunta10'];
-			$p3 = $_POST['pregunta11'];
-			$p4 = $_POST['pregunta12'];
-                        
-                        $competitivo = $p1+$p2+$p3+$p4;
-                        if($competitivo>=3)
-                            $competitivo = true;
-                        
-                        $p1 = $_POST['pregunta13'];
-			$p2 = $_POST['pregunta14'];
-			$p3 = $_POST['pregunta15'];
-			$p4 = $_POST['pregunta16'];
-                        
-                        $comunicador = $p1+$p2+$p3+$p4;
-                        if($comunicador>=3)
-                            $comunicador = true;
-                        
-                        $p1 = $_POST['pregunta17'];
-			$p2 = $_POST['pregunta18'];
-			$p3 = $_POST['pregunta19'];
-			$p4 = $_POST['pregunta20'];
-                        
-                        $conector = $p1+$p2+$p3+$p4;
-                        if($conector>=3)
-                            $conector = true;
-                        
-                        $p1 = $_POST['pregunta21'];
-			$p2 = $_POST['pregunta22'];
-			$p3 = $_POST['pregunta23'];
-			$p4 = $_POST['pregunta24'];
-                        
-                        $desarrollador = $p1+$p2+$p3+$p4;
-                        if($desarrollador>=3)
-                            $desarrollador = true;
-                        
-                        $p1 = $_POST['pregunta25'];
-			$p2 = $_POST['pregunta26'];
-			$p3 = $_POST['pregunta27'];
-			$p4 = $_POST['pregunta28'];
-                        
-                        $disciplinado = $p1+$p2+$p3+$p4;
-                        if($disciplinado>=3)
-                            $disciplinado = true;
-                        
-                        $p1 = $_POST['pregunta29'];
-			$p2 = $_POST['pregunta30'];
-			$p3 = $_POST['pregunta31'];
-			$p4 = $_POST['pregunta32'];
-                        
-                        $empatico = $p1+$p2+$p3+$p4;
-                        if($empatico>=3)
-                            $empatico = true;
-                        
-                        $p1 = $_POST['pregunta33'];
-			$p2 = $_POST['pregunta34'];
-			$p3 = $_POST['pregunta35'];
-			$p4 = $_POST['pregunta36'];
-                        
-                        $emprendedor = $p1+$p2+$p3+$p4;
-                        if($emprendedor>=3)
-                            $emprendedor = true;
-                        
-                        $p1 = $_POST['pregunta37'];
-			$p2 = $_POST['pregunta38'];
-			$p3 = $_POST['pregunta39'];
-			$p4 = $_POST['pregunta40'];
-                        
-                        $flexible = $p1+$p2+$p3+$p4;
-                        if($flexible>=3)
-                            $flexible = true;
-                        
-                        $p1 = $_POST['pregunta41'];
-			$p2 = $_POST['pregunta42'];
-			$p3 = $_POST['pregunta43'];
-			$p4 = $_POST['pregunta44'];
-                        
-                        $futurista = $p1+$p2+$p3+$p4;
-                        if($futurista>=3)
-                            $futurista = true;
-                        
-                        $p1 = $_POST['pregunta45'];
-			$p2 = $_POST['pregunta46'];
-			$p3 = $_POST['pregunta47'];
-			$p4 = $_POST['pregunta48'];
-                        
-                        $mandatario = $p1+$p2+$p3+$p4;
-                        if($mandatario>=3)
-                            $mandatario = true;
-                        
-                        $p1 = $_POST['pregunta49'];
-			$p2 = $_POST['pregunta50'];
-			$p3 = $_POST['pregunta51'];
-			$p4 = $_POST['pregunta52'];
-                        
-                        $responsable = $p1+$p2+$p3+$p4;
-                        if($responsable>=3)
-                            $responsable = true;
-                        echo "<script language='JavaScript'>location = '../index.php'</script>";
+            $mandatario = $p1+$p2+$p3+$p4;
+            
+			echo "<script language='JavaScript'>location = 'resultados.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado&flex=$flexible&manda=$mandatario'</script>";
+
+             
 		}
                 
                         
