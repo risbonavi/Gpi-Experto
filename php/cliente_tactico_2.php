@@ -90,7 +90,7 @@ session_start();
 
 			<!Responsable 3 ok>
 			<div class="preguntas">
-			 <strong>Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntarán en cierta estación del metro:</strong>
+			 <strong>Cuándo te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntarán en cierta estación del metro:</strong>
 			<br> <br>
 			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
 			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>

@@ -111,7 +111,7 @@ session_start();
 			<br>
                         
             <div class="preguntas">
-			 <strong>Cuando se vá de vacaciones, llegas a una casa en la playa que te prestó un familiar, y la encuentra sucia y desordenada, ustéd:</strong>
+			 <strong>Cuándo se vá de vacaciones, llegas a una casa en la playa que te prestó un familiar, y la encuentra sucia y desordenada, usted:</strong>
 			<br> <br>
 			<input type=radio name="pregunta27" value="0" checked="checked">a) Te instalas y descansas antes de ordenar y limpiar.<br>
 			<input type=radio name="pregunta27" value="1">b) Ordenas y limpias hasta que todo quede como querias y luego te acuestas.<br>

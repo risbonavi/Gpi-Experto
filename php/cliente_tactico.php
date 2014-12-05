@@ -48,7 +48,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                          <strong>Cuando estás esperando en un semáforo:</strong>  
+                          <strong>Cuándo estás esperando en un semáforo:</strong>  
 			<br> <br>
 			<input type=radio name="pregunta3" value="0" checked="checked">a) Esperas a que cambie para seguir.<br>
 			<input type=radio name="pregunta3" value="1">b)	Te fijas mientras esperas en cuanto tiempo y de que forma salir mas rapidamente.<br>
@@ -80,7 +80,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-			 <strong>En cuanto al trabajo, ustéd siempre busca:</strong>
+			 <strong>En cuánto al trabajo, ustéd siempre busca:</strong>
 			<br> <br>
 			<input type=radio name="pregunta10" value="0" checked="checked">a)	Cumplir con las tareas que se le entregan<br>
 			<input type=radio name="pregunta10" value="1">b)	Ascender de cargo rapidamente<br>
@@ -89,7 +89,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-			 <strong>Cuando usted pierde en alguna competencia:</strong>
+			 <strong>Cuándo usted pierde en alguna competencia:</strong>
 			<br> <br>
 			<input type=radio name="pregunta11" value="0" checked="checked">a)	Se deprime.<br>
 			<input type=radio name="pregunta11" value="0">b)	Le da igual.<br>
@@ -109,7 +109,7 @@ session_start();
 		
 			<!conector 4 ok>
 			<div class="preguntas">
-			 <strong>Cuando dos de tus amigos están "peleados" por algún motivo o razón, ¿Cuál es tu postura?</strong>
+			 <strong>Cuándo dos de tus amigos están "peleados" por algún motivo o razón, ¿Cuál es tu postura?</strong>
 			<br> <br>
 			<input type=radio name="pregunta17" value="1" checked="checked">a) Sabes realmente lo que paso, por eso apoyas al que encuentras tiene la razón.<br>
 			<input type=radio name="pregunta17" value="0">b)	Mantienes cierta distancia del conflicto, es mejor que ellos solucionen sus diferencias.<br>

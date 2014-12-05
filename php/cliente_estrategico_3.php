@@ -31,7 +31,7 @@ session_start();
 			
 			<!--Flexible-->
 			<div class="preguntas">
-                        <b>¿Alguna vez haz  viajado ”mochileando”?<br> <br></b>
+                        <b>¿Alguna vez ha viajado ”mochileando”?<br> <br></b>
 			<input type=radio name="pregunta37" value="0" checked="checked">a)	No me atrevo a hacerlo, me gusta organizar bien mis viajes.	<br>
 			<input type=radio name="pregunta37" value="1">b)	Si lo he hecho, me gusta la idea de no saber cómo llegare a mi destino.<br>
 			<input type=radio name="pregunta37" value="0">c)	Aun no lo hago, pero tengo intenciones de hacerlo pronto.	<br>

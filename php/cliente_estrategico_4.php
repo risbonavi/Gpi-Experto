@@ -32,7 +32,7 @@ session_start();
 			
 			<!--Mandatario-->
 			<div class="preguntas">
-                        <b>Estas a cargo de un proyecto, ¿Cuál es tu forma de decidir la manera en que lo harán?</b>
+                        <b>Está a cargo de un proyecto, ¿Cuál es su forma de decidir la manera en que lo harán?</b>
 			<br> <br>
 			<input type=radio name="pregunta45" value="0" checked="checked">a) Lo discutimos entre todos y elegimos cual es la mejor idea.<br>
 			<input type=radio name="pregunta45" value="1">b) Sé cómo abordarlo, le informo a mi grupo de trabajo la forma en que lo haremos.<br>
@@ -41,8 +41,7 @@ session_start();
 			<br>
                         
                         <div class="preguntas">
-                            <b>En la asociación de fútbol en usted participa sus compañeros y demás socios lo postulan como el candidato ideal para que usted dirige el club. ¿Cuál es la actitud que tomaría?</b>
-
+                        <b>En la asociación de fútbol en usted participa sus compañeros y demás socios lo postulan como el candidato ideal para que usted dirige el club. ¿Cuál es la actitud que tomaría?</b>
 			<br> <br>
 			<input type=radio name="pregunta46" value="0" checked="checked">a) Usted rechazaria el puesto ya que tiene dudas de como poder ejercer su cargo.<br>
 			<input type=radio name="pregunta46" value="0">b) Usted acepta el puesto pero siempre y cuando exista unanimidad total.<br>
@@ -62,11 +61,11 @@ session_start();
 
 			<!--Responsable-->
 			<div class="preguntas">
-                        <b>Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntaran en cierta estación del metro:</b>
+                        <b>Cuándo se va a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntarán en cierta estación del metro:</b>
 			<br> <br>
-			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
-			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
-			<input type=radio name="pregunta49" value="0">c)	Te atrasaste, pero sabes que tus amigos también se atrasaran, sabes que siempre es así.<br>
+			<input type=radio name="pregunta49" value="0" checked="checked">a) Es el primero en llegar, llega a la hora acordada.<br>
+			<input type=radio name="pregunta49" value="1">b)	No llegará a la hora, pero avisa que está atrasado.<br>
+			<input type=radio name="pregunta49" value="0">c)	Se atrasa, pero sabe que sus amigos también se atrasaran, sabe que siempre es así.<br>
 			</div>
 			<br>
                         

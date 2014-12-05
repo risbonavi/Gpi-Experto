@@ -40,7 +40,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>Cuando alguien que te rodea tiene alguna duda con alguna tarea o concepto, tú:</b>
+                        <b>Cuándo alguien que lo rodea tiene alguna duda con alguna tarea o concepto, tú:</b>
 			<br> <br>
 			<input type=radio name="pregunta14" value="0" checked="checked">a) Esperas que te pregunte para ver si es que le ayudas o  no.<br>
 			<input type=radio name="pregunta14" value="0">b)	No eres bueno explicando, por eso prefieres que alguien más le ayude.<br>
@@ -49,7 +49,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>En una reunion con amigos:</b>
+                        <b>En una reunión con amigos:</b>
 			<br> <br>
 			<input type=radio name="pregunta15" value="0" checked="checked">a)	Escuchas las opiniones que sus amigos tiene sobre usted.<br>
 			<input type=radio name="pregunta15" value="0">b)	No le gusta compartir con amistades.<br>
@@ -58,7 +58,7 @@ session_start();
 			<br>
 		
 			<div class="preguntas">
-                        <b>Es el matrimonio de un amigo  y me pide que haga un  pequeño discurso delante de los asistente . ¿Cuál es su respuesta?</b>
+                        <b>Es el matrimonio de un amigo  y le pide que haga un  pequeño discurso delante de los asistente . ¿Cuál es su respuesta?</b>
 			<br> <br>
 			<input type=radio name="pregunta16" value="1" checked="checked">a)   No, por que me da verguenza<br>
 			<input type=radio name="pregunta16" value="0">b) Lo piensas  pero le dijo que no . Porque no tengo nada preparado.<br>
@@ -67,16 +67,16 @@ session_start();
 			<br>
 			<!--Emprendedor-->
 			<div class="preguntas">
-                        <b>Cuando logras cumplir un objetivo, tú:</b>
+                        <b>Cuándo logras cumplir un objetivo, usted:</b>
 			<br> <br>
-			<input type=radio name="pregunta33" value="0" checked="checked">a)	Te sientes feliz por tu logro.<br>
-			<input type=radio name="pregunta33" value="1">b)	Te sientes conforme, pero crees que necesitas seguir avanzando.<br>
-			<input type=radio name="pregunta33" value="0">c)	No te conformas, piensas que fue muy fácil.<br>
+			<input type=radio name="pregunta33" value="0" checked="checked">a)	Se siente felíz por su logro.<br>
+			<input type=radio name="pregunta33" value="1">b)	Se siente conforme, pero cree que necesita seguir avanzando.<br>
+			<input type=radio name="pregunta33" value="0">c)	No se conforma, piensa que fue muy fácil.<br>
 			</div>
 			<br>
                         
                         <div class="preguntas">
-                        <b>Si quisiera adquirir un  producto que le sea de utilidad, pero se encuentra con poco dinero para comprarlo porque aun no es fin de mes.  ¿Qué haría para obtenerlo?.</b>
+                        <b>Si quisiera adquirir un  producto que le sea de utilidad, pero se encuentra con poco dinero para comprarlo porque aun no es fin de mes. ¿Qué haría para obtenerlo?.</b>
 			<br> <br>
 			<input type=radio name="pregunta34" value="0" checked="checked">a) Esperaría el pago, no tengo apuro por conseguirlo.<br>
 			<input type=radio name="pregunta34" value="1">b) Busco la forma de tenerlo en mi poder rápidamente. <br>
@@ -85,11 +85,11 @@ session_start();
 			<br>
                         
                         <div class="preguntas">
-                        <b>Caminando un dia por la ciudad encuentras unos trozo de madera en muy buen estado. ¿Cual sería tu actitud?</b>
+                        <b>Caminando un dia por la ciudad encuentras unos trozo de madera en muy buen estado. ¿Cual sería su actitud?</b>
 			<br> <br>
-			<input type=radio name="pregunta35" value="1" checked="checked">a) La recoges y te las llevas definiendo en el momento las cosas que vas hacer con ella.<br>
-			<input type=radio name="pregunta35" value="0">b) No le tomas importancia y sigues tu camino.<br>
-			<input type=radio name="pregunta35" value="0">c)  La ves y la examinas pero sigues tu camino.<br>
+			<input type=radio name="pregunta35" value="1" checked="checked">a) La recoges y se la lleva definiendo en el momento las cosas que va a hacer con ella.<br>
+			<input type=radio name="pregunta35" value="0">b) No le toma importancia y sigue su camino.<br>
+			<input type=radio name="pregunta35" value="0">c)  La ve y la examina, pero sigue su camino.<br>
 			</div>
 			<br>
                       

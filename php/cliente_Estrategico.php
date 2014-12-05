@@ -31,7 +31,7 @@ session_start();
 			
 			<!--analitico-->
 			<div class="preguntas">
-                        <b>Si un amigo de usted se encuentra gravemente enfermo, ¿Hacia donde lo llevaría?</b>			
+                        <b>Si un amigo de usted se encuentra gravemente enfermo, ¿Hacia dónde lo llevaría?</b>			
 			<br> <br>
 			<input type=radio name="pregunta1" value="0" checked="checked">a)	Usted lo lleva a distintos especialistas, hasta dar con el indicado y así tratar su problema.<br>
 			<input type=radio name="pregunta1" value="1">b)	Lo lleva hacia un médico general, para que identifique el origen de la enfermedad y así lo derive a un especialista.<br>
@@ -49,7 +49,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>Cuando estás esperando en un semaforo:</b>
+                        <b>Cuándo estás esperando en un semaforo:</b>
 			<br> <br>
 			<input type=radio name="pregunta3" value="0" checked="checked">a) Esperas a que cambie para seguir.<br>
 			<input type=radio name="pregunta3" value="1">b)	Te fijas mientras esperas en cuanto tiempo y de que forma salir mas rapidamente.<br>
@@ -77,7 +77,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>En cuanto al trabajo, usted siempre busca:</b>
+                        <b>En cuánto al trabajo, usted siempre busca:</b>
 			<br> <br>
 			<input type=radio name="pregunta10" value="0" checked="checked">a)	Cumplir con las tareas que se le entregan.<br>
 			<input type=radio name="pregunta10" value="1">b)	Ascender de cargo rapidamente.<br>
@@ -95,7 +95,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-			<b>¿Usted busca demostrar sus logros a los demas?</b>
+			<b>¿Usted busca demostrar sus logros a los demás?</b>
 			<br> <br>
 			<input type=radio name="pregunta12" value="1" checked="checked">a)	Si, porque me agrada ser el mejor.<br>
 			<input type=radio name="pregunta12" value="0">b)	Me da igual.<br>
