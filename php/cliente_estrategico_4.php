@@ -101,7 +101,9 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnFinalizar']=="Finalizar"){
 			
-            
+            $rut=$_GET['rut'];        
+			//&rut=$rut
+			
                         $p1 = $_POST['pregunta45'];
 			$p2 = $_POST['pregunta46'];
 			$p3 = $_POST['pregunta47'];
@@ -127,7 +129,7 @@ session_start();
                         $flex = $_GET['flex'];
                         
 							
-			            echo "<script language='JavaScript'>location = 'resultados_estrategico.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$fut&flex=$flex&man=$mandatario&res=$responsable'</script>";
+			            echo "<script language='JavaScript'>location = 'resultados_estrategico.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$fut&flex=$flex&man=$mandatario&res=$responsable&rut=$rut'</script>";
 
 		}?>
                

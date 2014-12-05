@@ -129,7 +129,9 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Finalizar"){
 			
-			//echo "<script language='JavaScript'>location = 'cliente_tactico_2.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado'</script>";
+			$rut=$_GET['rut'];        
+			//&rut=$rut 
+			
 			
 			$analitico = $_GET['anali'];
 			$competitivo = $_GET['competi'];
@@ -152,7 +154,7 @@ session_start();
                         
             $mandatario = $p1+$p2+$p3+$p4;
             
-			echo "<script language='JavaScript'>location = 'resultados_tactico.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado&flex=$flexible&manda=$mandatario'</script>";
+			echo "<script language='JavaScript'>location = 'resultados_tactico.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado&flex=$flexible&manda=$mandatario&rut=$rut'</script>";
 
              
 		}

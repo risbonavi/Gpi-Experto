@@ -24,6 +24,7 @@ session_start();
 
 	<?php
 	include ("../menu2.php");
+	include( "../conexion_db/conexion_db.php");
 	?>
         <form method="POST" action="">
             
@@ -57,10 +58,13 @@ session_start();
                                 $cargo = 'Gerente RR.HH';
                         
                         echo "Su cargo mas óptimo en la empresa sería : ". $cargo; 
-                ?>
+						
+			
+                
+				?>
                 <div>
                     
-                 <input type=submit name="btnContinuar" value="Salir" required=""><br>
+                 <input type=submit name="btnContinuar" value="Salir"><br>
     </div>
             <br>
 	</div>
@@ -70,7 +74,14 @@ session_start();
         
         <?php 
 		if(@$_REQUEST['btnContinuar']=="Salir"){
-			
+						$rut=$_GET['rut'];        
+						
+						$sql1 = "INSERT INTO transacciones VALUES ('','".$rut."','".$cargo."','Estratégico')"; 
+						$verifica = mysql_query($sql1);
+						
+						if($verifica){echo "OK";}
+						else{echo "ERROR";}
+						
                         echo "<script language='JavaScript'>location = '../index.php'</script>";
                 }
 		

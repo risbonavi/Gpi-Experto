@@ -133,6 +133,9 @@ session_start();
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
 			//echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?anali=$analitico&competi=$competitivo&conect=$conector'</script>";
 			
+			$rut=$_GET['rut'];        
+			//&rut=$rut 
+			
 			$analitico = $_GET['anali'];
 			$competitivo = $_GET['competi'];
 					
@@ -156,7 +159,7 @@ session_start();
 						
 						$Disiplinado = $p1+$p2+$p3;
 						
-			echo "<script language='JavaScript'>location = 'cliente_tactico_2.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado'</script>";
+			echo "<script language='JavaScript'>location = 'cliente_tactico_2.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado&rut=$rut'</script>";
 			
 		}
                

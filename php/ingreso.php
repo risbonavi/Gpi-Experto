@@ -77,12 +77,14 @@ session_start();
 			$email = $_POST['email'];
 			
 			$sql1 = "INSERT INTO encuestados VALUES ('','".$nombres."','".$apellidos."','".$rut."','".$email."')"; 
-			mysql_query($sql1);
-		
-			if($sql1)
-				echo "<script language='JavaScript'>location = 'comenzar.php?usrn='$nombres&usra=$apellidos''</script>";
-			else
+			$verifica = mysql_query($sql1);
+			
+			if($verifica){
+				echo "<script language='JavaScript'>location = 'comenzar.php?usrn=$nombres&usra=$apellidos&rut=$rut'</script>";
+			}
+			else{
 				echo "ERROR";
+			}
 		}
 		
 		?>

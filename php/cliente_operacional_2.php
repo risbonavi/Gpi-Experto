@@ -94,8 +94,8 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Finalizar"){
                     
-                    
-			                                               
+            $rut=$_GET['rut'];        
+			//&rut=$rut                                               
                         $p1 = $_POST['pregunta29'];
 			$p2 = $_POST['pregunta30'];
 			$p3 = $_POST['pregunta31'];
@@ -111,7 +111,7 @@ session_start();
                         $arm = $_GET['arm'];
                         $dis = $_GET['dis'];
                         
-                        echo "<script language='JavaScript'>location = 'resultados_operacional.php?arm=$arm&dis=$dis&emp=$empatico&res=$responsable'</script>";
+                        echo "<script language='JavaScript'>location = 'resultados_operacional.php?arm=$arm&dis=$dis&emp=$empatico&res=$responsable&rut=$rut'</script>";
 		}
                 
 		

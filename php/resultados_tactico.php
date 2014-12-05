@@ -24,6 +24,7 @@ session_start();
 
 	<?php
 	include ("../menu2.php");
+	include( "../conexion_db/conexion_db.php");
 	?>
 	
     
@@ -59,7 +60,9 @@ session_start();
                         
                                 
                         
-                            echo "Su cargo mas óptimo en la empresa sería : ". $cargo; 
+            echo "Su cargo mas óptimo en la empresa sería : ". $cargo; 
+							
+			
                 ?>
                 <div>
                     
@@ -73,6 +76,14 @@ session_start();
         
         <?php 
 		if(@$_REQUEST['btnContinuar']=="Salir"){
+			$rut=$_GET['rut'];        
+			
+			
+			$sql1 = "INSERT INTO transacciones VALUES ('','".$rut."','".$cargo."','Táctico')"; 
+			$verifica = mysql_query($sql1);
+			
+			if($verifica){echo "OK";}
+			else{echo "ERROR".mysql_error();}
 			
                         echo "<script language='JavaScript'>location = '../index.php'</script>";
                 }

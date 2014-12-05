@@ -91,7 +91,9 @@ session_start();
 		
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
-			echo "boris qlo";
+			
+			$rut= $_GET['rut'];
+			
 			$p1 = $_POST['pregunta1'];
 			$p2 = $_POST['pregunta2'];
 			$p3 = $_POST['pregunta3'];
@@ -107,22 +109,21 @@ session_start();
 			if($suma>0 && $suma<=59)
 			{
                            
-				echo "<script language='JavaScript'>location = 'cliente_operacional.php'</script>";
+				echo "<script language='JavaScript'>location = 'cliente_operacional.php?rut=$rut'</script>";
 				$tipo=1;
 			}
 			else if($suma>60 && $suma<=99)
 			{
-				echo "<script language='JavaScript'>location = 'cliente_tactico.php'</script>";
+				echo "<script language='JavaScript'>location = 'cliente_tactico.php?rut=$rut'</script>";
 				$tipo=2;
 			}
 			else if($suma>100 && $suma<=120)
 			{
-				echo "<script language='JavaScript'>location = 'cliente_estrategico.php'</script>";
+				echo "<script language='JavaScript'>location = 'cliente_estrategico.php?rut=$rut'</script>";
 				$tipo=3;
 			}
 			else{echo "fuera del rango";}
 			
-			//echo "<script language='JavaScript'>location = 'cliente_test2.php'</script>";
 		}
 		
 		?>

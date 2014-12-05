@@ -104,6 +104,8 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
                         
+			$rut=$_GET['rut'];
+			
                         $p1 = $_POST['pregunta5'];
 			$p2 = $_POST['pregunta6'];
 			$p3 = $_POST['pregunta7'];
@@ -114,15 +116,10 @@ session_start();
                         $p1 = $_POST['pregunta25'];
 			$p2 = $_POST['pregunta26'];
 			$p3 = $_POST['pregunta27'];
-
-			
                         
                         $var2 = $p1+$p2+$p3;
 
-                        
-
-
-				echo "<script language='JavaScript'>location = 'cliente_operacional_2.php?arm=$var1&dis=$var2'</script>";
+				echo "<script language='JavaScript'>location = 'cliente_operacional_2.php?arm=$var1&dis=$var2&rut=$rut'</script>";
 
 			}
 						                     

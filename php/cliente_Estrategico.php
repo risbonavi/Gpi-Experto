@@ -115,6 +115,9 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
 			
+			$rut=$_GET['rut'];        
+			//&rut=$rut 
+			
 			$p1 = $_POST['pregunta1'];
 			$p2 = $_POST['pregunta2'];
 			$p3 = $_POST['pregunta3'];
@@ -131,7 +134,7 @@ session_start();
                         $competitivo = $p1+$p2+$p3+$p4;
                         
 						
-			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?ana=$analitico&comp=$competitivo'</script>";
+			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?ana=$analitico&comp=$competitivo&rut=$rut'</script>";
       
 		}
                 

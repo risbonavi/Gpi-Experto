@@ -98,6 +98,9 @@ session_start();
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Continuar"){
 			
+			$rut=$_GET['rut'];        
+			//&rut=$rut 
+			
 			$p1 = $_POST['pregunta37'];
 			$p2 = $_POST['pregunta38'];
 			$p3 = $_POST['pregunta39'];
@@ -115,12 +118,9 @@ session_start();
                         $emp = $_GET['emp'];
                         $com = $_GET['com'];
                         
-            echo "<script language='JavaScript'>location = 'cliente_estrategico_4.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$futurista&flex=$flexible'</script>";
+            echo "<script language='JavaScript'>location = 'cliente_estrategico_4.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$futurista&flex=$flexible&rut=$rut'</script>";
 		}
                 
-                
-                if($analitico = true && $emprendedor = true && $desarrollador = true)
-                        $cargo ='Gerente';
 		
 		?>
 	</div>
