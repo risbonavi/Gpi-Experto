@@ -19,9 +19,6 @@ session_start();
 
    <body>
 
-    <div class="bienvenida"><h3>Bienvenido <?php echo @$_SESSION['userx'];?></h3></div>
-	</br>
-
 	<?php
 	include ("../menu2.php");
 	?>

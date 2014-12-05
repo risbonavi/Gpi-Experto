@@ -19,8 +19,6 @@ session_start();
 
    <body>
 
-    <div class="bienvenida"><h3>Bienvenido <?php echo @$_SESSION['userx'];?></h3></div>
-	</br>
 
 	<?php
 	include ("../menu2.php");
@@ -46,17 +44,23 @@ session_start();
                         $flex = $_GET['flex'];//10
                         $man = $_GET['manda'];//12
                         $cargo = 'Sin perfil para la empresa';
+						$cargo2 = 'sin_perfil';
                         
-                        if($ana >= 3  && $comp>=2 && $con>=2 && $flex >= 2 && $man >= 2 )
+                        if($ana >= 3  && $comp>=2 && $con>=2 && $flex >= 2 && $man >= 2 ){
                                 $cargo = 'Jefe RRHH';
-                        if($con >= 3 &&  $flex >= 2 &&  $man >=2)
+								$cargo2 = 'jefe_rrhh';}
+                        if($con >= 3 &&  $flex >= 2 &&  $man >=2){
                                 $cargo = 'Jefe de Atención al cliente';
-                        if($ana >= 3 && $comp >= 2 && $dis >= 2 )
+								$cargo2 = 'jefe_clientes';}
+                        if($ana >= 3 && $comp >= 2 && $dis >= 2 ){
                                 $cargo = 'Representante de Ventas';
-                        if($ana >= 3 &&  $comp >= 2 && $com>=2 && $dis >= 2 && $man >= 2)
+								$cargo2 = 'representante_ventas';}
+                        if($ana >= 3 &&  $comp >= 2 && $com>=2 && $dis >= 2 && $man >= 2){
                                 $cargo = 'Supervisor de Planta';
-                        if($ana >= 3 &&  $dis >= 2)
+								$cargo2 = 'supervisor_planta';}
+                        if($ana >= 3 &&  $dis >= 2){
                                 $cargo = 'Contador';
+								$cargo2 = 'contador';}
                         
                                 
                         
@@ -66,7 +70,7 @@ session_start();
                 ?>
                 <div>
                     
-                 <input type=submit name="btnContinuar" value="Salir" required=""><br>
+                 <input type=submit name="btnContinuar" value="Salir"><br>
     </div>
             <br>
 	</div>
@@ -79,7 +83,7 @@ session_start();
 			$rut=$_GET['rut'];        
 			
 			
-			$sql1 = "INSERT INTO transacciones VALUES ('','".$rut."','".$cargo."','Táctico')"; 
+			$sql1 = "INSERT INTO transacciones VALUES ('','".$rut."','".$cargo2."','Tactico')"; 
 			$verifica = mysql_query($sql1);
 			
 			if($verifica){echo "OK";}

@@ -1,3 +1,12 @@
+
+<div class="bienvenida">
+		<br>
+		<b>Sistema Experto</b>
+		<br>
+		<!--<img src="../images/se.png" width="50%"/>-->
+	
+</div>
+<br>
 <div id='cssmenu'>
 <ul>
    <li><a href='../index.php'>Inicio</a></li>

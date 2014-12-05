@@ -19,8 +19,6 @@ session_start();
 
    <body>
 
-    <div class="bienvenida"><h3>Bienvenido <?php echo @$_SESSION['userx'];?></h3></div>
-	</br>
 
 	<?php
 	include ("../menu2.php");
@@ -43,19 +41,26 @@ session_start();
                         $res = $_GET['res'];//13
                         $man = $_GET['man'];//12
                         $cargo = 'Sin perfil para la empresa';
+						$cargo2 = 'sin_perfil';
                         
-                   if($ana >= 3 && $comp >= 3 && $emp>=2 && $com >= 1 && $fut >= 2 && $flex >= 2 &&$res>=2 &&$man>=2)
+                   if($ana >= 3 && $comp >= 3 && $emp>=2 && $com >= 1 && $fut >= 2 && $flex >= 2 &&$res>=2 &&$man>=2){
                                 $cargo = 'Gerente General';
-                        if($ana >= 3 &&  $com >= 2 &&  $man >=2 && $res >= 2)
+								$cargo2 = 'gerente_general';}
+                        if($ana >= 3 &&  $com >= 2 &&  $man >=2 && $res >= 2){
                                 $cargo = 'Gerente Administrativo';
-                        if($ana >= 3 && $comp >= 3 && $man >= 2 && $res >= 2)
+								$cargo2 = 'gerente_administrativo';}
+                        if($ana >= 3 && $comp >= 3 && $man >= 2 && $res >= 2){
                                 $cargo = 'Gerente Comercial';
-                        if($ana >= 3 && $comp >= 3 && $emp>=2 && $man >= 2 && $res >=2)
+								$cargo2 = 'gerente_comercial';}
+                        if($ana >= 3 && $comp >= 3 && $emp>=2 && $man >= 2 && $res >=2){
                                 $cargo = 'Gerente Produccion';
-                        if($ana >= 3 &&  $man >= 2 && $res >= 2)
+								$cargo2 = 'gerente_produccion';}
+                        if($ana >= 3 &&  $man >= 2 && $res >= 2){
                                 $cargo = 'Gerente Finanzas';
-                        if($ana >= 3 &&  $com >= 2  && $flex >= 2 && $man >= 2 && $res >= 2)
+								$cargo2 = 'gerente_finanzas';}
+                        if($ana >= 3 &&  $com >= 2  && $flex >= 2 && $man >= 2 && $res >= 2){
                                 $cargo = 'Gerente RR.HH';
+								$cargo2 = 'gerente_RRHH';}
                         
                         echo "Su cargo mas óptimo en la empresa sería : ". $cargo; 
 						
@@ -76,7 +81,7 @@ session_start();
 		if(@$_REQUEST['btnContinuar']=="Salir"){
 						$rut=$_GET['rut'];        
 						
-						$sql1 = "INSERT INTO transacciones VALUES ('','".$rut."','".$cargo."','Estratégico')"; 
+						$sql1 = "INSERT INTO transacciones VALUES ('','".$rut."','".$cargo2."','Estrategico')"; 
 						$verifica = mysql_query($sql1);
 						
 						if($verifica){echo "OK";}

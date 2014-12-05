@@ -19,8 +19,6 @@ session_start();
 
    <body>
 
-    <div class="bienvenida"><h3>Bienvenido <?php echo @$_SESSION['userx'];?></h3></div>
-	</br>
 
 	<?php
 	include ("../menu2.php");
@@ -112,12 +110,12 @@ session_start();
 				echo "<script language='JavaScript'>location = 'cliente_operacional.php?rut=$rut'</script>";
 				$tipo=1;
 			}
-			else if($suma>60 && $suma<=99)
+			else if($suma>=60 && $suma<=99)
 			{
 				echo "<script language='JavaScript'>location = 'cliente_tactico.php?rut=$rut'</script>";
 				$tipo=2;
 			}
-			else if($suma>100 && $suma<=120)
+			else if($suma>=100 && $suma<=120)
 			{
 				echo "<script language='JavaScript'>location = 'cliente_estrategico.php?rut=$rut'</script>";
 				$tipo=3;

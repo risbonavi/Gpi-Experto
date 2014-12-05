@@ -19,9 +19,6 @@ session_start();
 
    <body>
 
-    <div class="bienvenida"><h3>Bienvenido <?php echo @$_SESSION['userx'];?></h3></div>
-	</br>
-
 	<?php
 	include ("../menu2.php");
 	include( "../conexion_db/conexion_db.php");
@@ -43,17 +40,23 @@ session_start();
                         $emp = $_GET['emp'];//8
                         $res = $_GET['res'];//13
                         $cargo = 'Sin perfil para la empresa';
+						$cargo2 = 'sin_perfil';
                         
-                   if($arm >= 3 && $dis >= 2 && $emp>=2 &&$res>=2)
+                   if($arm >= 3 && $dis >= 2 && $emp>=2 &&$res>=2){
                                 $cargo = 'Asistente RR.HH';
-                        if($arm >= 3 && $dis >= 2  &&$res>=2)
+								$cargo2 = 'asistente_rrhh';}
+                        if($arm >= 3 && $dis >= 2  &&$res>=2){
                                 $cargo = 'Diseñador de Moda';
-                       if( $dis >= 2  &&$res>=2)
+								$cargo2 = 'diseñador_moda';}
+                       if( $dis >= 2  &&$res>=2){
                                 $cargo = 'Asistente Contador';
-                        if($arm >= 3  && $emp>=2 &&$res>=2)
+								$cargo2 = 'asistente_contador';}
+                        if($arm >= 3  && $emp>=2 &&$res>=2){
                                 $cargo = 'Operario Control de Calidad';
-                        if($dis >= 2 && $emp>=2 &&$res>=2)
+								$cargo2 = 'operario_control';}
+                        if($dis >= 2 && $emp>=2 &&$res>=2){
                                 $cargo = 'Ejecutivo atencion al cliente';
+								$cargo2 = 'ejecutivos_clientes';}
 						
 						echo "Su cargo mas óptimo en la empresa sería : ". $cargo; 
 						
