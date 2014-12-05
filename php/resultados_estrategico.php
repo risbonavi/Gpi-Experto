@@ -33,14 +33,14 @@ session_start();
             <div>
                 <?php
                 
-                        $ana = $_GET['ana'];
-                        $comp = $_GET['comp'];
-                        $emp = $_GET['emp'];
-                        $com = $_GET['com'];
-                        $fut = $_GET['fut'];
-                        $flex = $_GET['flex'];
-                        $res = $_GET['res'];
-                        $man = $_GET['man'];
+                        $ana = $_GET['ana'];//1
+                        $comp = $_GET['comp'];//3
+                        $emp = $_GET['emp'];//8
+                        $com = $_GET['com'];//4
+                        $fut = $_GET['fut'];//11
+                        $flex = $_GET['flex'];//10
+                        $res = $_GET['res'];//13
+                        $man = $_GET['man'];//12
                         $cargo = 'Sin perfil para la empresa';
                         
                    if($ana >= 3 && $comp >= 3 && $emp>=2 && $com >= 1 && $fut >= 2 && $flex >= 2 &&$res>=2 &&$man>=2)
