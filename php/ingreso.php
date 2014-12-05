@@ -60,7 +60,7 @@ session_start();
                 <br>
             
             
-				<input type="submit" name="btnContinuar" value="Continuar" required=""><br>
+				<input type="submit" name="btnContinuar" value="Continuar" ><br>
 			</div>
 	</div>
             
@@ -76,13 +76,13 @@ session_start();
 			$rut = $_POST['rut'];
 			$email = $_POST['email'];
 			
-		$sql1 = "INSERT INTO encuestados VALUES ('','".$nombres."','".$apellidos."','".$rut."','".$email."')"; 
-		mysql_query($sql1);
+			$sql1 = "INSERT INTO encuestados VALUES ('','".$nombres."','".$apellidos."','".$rut."','".$email."')"; 
+			mysql_query($sql1);
 		
-		
-	
-				echo "<script language='JavaScript'>location = 'comenzar.php'</script>";
-		
+			if($sql1)
+				echo "<script language='JavaScript'>location = 'comenzar.php?usrn='$nombres&usra=$apellidos''</script>";
+			else
+				echo "ERROR";
 		}
 		
 		?>

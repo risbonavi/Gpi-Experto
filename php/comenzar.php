@@ -24,27 +24,26 @@ session_start();
 
 	<?php
 	include ("../menu2.php");
-	?>
-	
-    
 
+	$usuarion=$_GET['usrn'];
+	$usuarioa=$_GET['usra'];
+	?>
 
         <form method="POST" action="">
             
-            <div class="bienvenida">
-		
-            <h2>Test</h2>
-            <div>
-                Bienvenido : "el nombre del wn en la base" <br>
-                
-                A continuación realizará un test, para analizar sus habilidades, aptitudes y competencias en base a sus respuestas, no tiene
-                tiempo limite para responder.
-                
-                
-            </div>
-            <br>
-            <input type=submit name="btnContinuar" value="Continuar" required=""><br>
-	</div>
+            <div class="bienvenida">		
+				<h2>Test</h2>
+				<div>
+					Bienvenido : <?php echo $usuarion." ".$usuarioa; ?> <br>
+					<br>
+					A continuación realizará un test, para analizar sus habilidades, aptitudes y competencias en base a sus respuestas, no tiene
+					tiempo limite para responder.
+					
+					
+				</div>
+				<br>
+				<input type=submit name="btnContinuar" value="Continuar" required=""><br><br>
+			</div>
             
         </form>        
         

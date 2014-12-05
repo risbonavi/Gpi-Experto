@@ -25,10 +25,6 @@ session_start();
 	<?php
 	include ("../menu2.php");
 	?>
-	
-    
-
-
         <form method="POST" action="">
             
             <div class="bienvenida">
@@ -60,9 +56,7 @@ session_start();
                         if($ana >= 3 &&  $com >= 2  && $flex >= 2 && $man >= 2 && $res >= 2)
                                 $cargo = 'Gerente RR.HH';
                         
-                                
-                        
-                            echo "Su cargo mas óptimo en la empresa sería : ". $cargo; 
+                        echo "Su cargo mas óptimo en la empresa sería : ". $cargo; 
                 ?>
                 <div>
                     
