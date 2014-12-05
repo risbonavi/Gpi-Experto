@@ -93,29 +93,27 @@ session_start();
 		    </form>		
 		<?php 
 		if(@$_REQUEST['btnContinuar']=="Finalizar"){
+                    
+                    
 			                                               
                         $p1 = $_POST['pregunta29'];
 			$p2 = $_POST['pregunta30'];
 			$p3 = $_POST['pregunta31'];
                         
                         $empatico = $p1+$p2+$p3;
-                        if($empatico>=3)
-                            $empatico = true;
                                                 
                         $p1 = $_POST['pregunta49'];
 			$p2 = $_POST['pregunta50'];
 			$p3 = $_POST['pregunta51'];
                         
                         $responsable = $p1+$p2+$p3;
-                        if($responsable>=3)
-                            $responsable = true;
                         
-                        echo "<script language='JavaScript'>location = '../index.php'</script>";
+                        $arm = $_GET['arm'];
+                        $dis = $_GET['dis'];
+                        
+                        echo "<script language='JavaScript'>location = 'resultados.php?arm=$arm&dis=$dis&emp=$empatico&res=$responsable'</script>";
 		}
                 
-                
-                if($analitico = true && $emprendedor = true && $desarrollador = true)
-                        $cargo ='Gerente';
 		
 		?>
 	</div>
