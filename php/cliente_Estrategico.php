@@ -31,7 +31,7 @@ session_start();
 			
 			<!--analitico-->
 			<div class="preguntas">
-                        <b>Si un amigo de usted se encuentra gravemente enfermo, ¿A donde recurriría usted?:</b>			
+                        <b>Si un amigo de usted se encuentra gravemente enfermo, ¿Hacia donde lo llevaría?</b>			
 			<br> <br>
 			<input type=radio name="pregunta1" value="0" checked="checked">a)	Usted lo lleva a distintos especialistas, hasta dar con el indicado y así tratar su problema.<br>
 			<input type=radio name="pregunta1" value="1">b)	Lo lleva hacia un médico general, para que identifique el origen de la enfermedad y así lo derive a un especialista.<br>
@@ -49,7 +49,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>Cuando estas esperando en un semaforo:</b>
+                        <b>Cuando estás esperando en un semaforo:</b>
 			<br> <br>
 			<input type=radio name="pregunta3" value="0" checked="checked">a) Esperas a que cambie para seguir.<br>
 			<input type=radio name="pregunta3" value="1">b)	Te fijas mientras esperas en cuanto tiempo y de que forma salir mas rapidamente.<br>
@@ -58,7 +58,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-                        <b>¿Que numero sigue en la serie? 36,12,42,14... </b>
+                        <b>¿Que número sigue en la serie? 36,12,42,14... </b>
 			<br> <br>
 			<input type=radio name="pregunta4" value="0" checked="checked">56.<br>
 			<input type=radio name="pregunta4" value="0">28.<br>
@@ -86,7 +86,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-			<b>Cuando usted pierde en alguna competencia:</b>
+			<b>Cuándo usted pierde en alguna competencia:</b>
 			<br> <br>
 			<input type=radio name="pregunta11" value="0" checked="checked">a)	Se deprime.<br>
 			<input type=radio name="pregunta11" value="0">b)	Le da igual.<br>

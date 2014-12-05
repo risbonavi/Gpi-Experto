@@ -38,7 +38,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-			<b>Ya sea en el ámbito laboral o social, si encuentra que algo es injusto para alguna persona que no es usted, ¿Qué hace?:</b>
+			<b>Ya sea en el ámbito laboral o social, si encuentra que algo es injusto para alguna persona que no es usted, ¿Qué hace?</b>
 			<br> <br>
 			<input type=radio name="pregunta6" value="0" checked="checked">a)	Apoya a la persona y la ayuda para que reciba un trato adecuado<br>
 			<input type=radio name="pregunta6" value="1">b)	La apoya, pero prefiere mantenerse al margen de la situación.<br>
@@ -47,7 +47,7 @@ session_start();
 			<br>
 			
 			<div class="preguntas">
-			<b>En un accidente automovilistico, en cual usted no tuvo la culpa:</b>
+			<b>En un accidente automovilistico, en cual usted no participó:</b>
 			<br> <br>
 			<input type=radio name="pregunta7" value="0" checked="checked">a)	Se enfurece, pero trata de ver como quedo el otro conductor para poder insultarlo<br>
 			<input type=radio name="pregunta7" value="0">b)	Se enfurece, y discute con el otro conductor<br>
@@ -67,7 +67,7 @@ session_start();
                         <!--Disciplinado 4 ok -->
 			<div class="preguntas">
 
-			<b>Cuando realizas una fiesta en tu casa, la mejor forma de hacerla es:</b>
+			<b>Cuándo realízas una fiesta en tu casa, la mejor forma de hacerla es:</b>
 			<br> <br>
 			<input type=radio name="pregunta25" value="0" checked="checked">a) Siempre es mejor improvisar las fiestas, si se planean no resulta como quiero.<br>
 			<input type=radio name="pregunta25" value="0">b)	La organizo unos días antes, no requiero de mucho tiempo para tener todo en orden.<br>
@@ -85,7 +85,7 @@ session_start();
 			<br>
                         
             <div class="preguntas">
-			<b>Cuando te vas de vacaciones, y llegas a una casa en la playa que te presto un familiar , y la encuentras sucia y desordenada, usted:</b>
+			<b>Cuándo te vas de vacaciones, y llegas a una casa en la playa que te presto un familiar, y la encuentras sucia y desordenada, usted:</b>
 			<br> <br>
 			<input type=radio name="pregunta27" value="0" checked="checked">a) Te instalas y descansas antes de ordenar y limpiar.<br>
 			<input type=radio name="pregunta27" value="1">b) Ordenas y limpias hasta que todo quede como querias y luego te acuestas.<br>

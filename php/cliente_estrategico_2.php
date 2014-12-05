@@ -31,7 +31,7 @@ session_start();
 			
 			<!--Comunicador-->
 			<div class="preguntas">
-                        <b>En su etapa escolar, ¿alguna vez  perteneció a algún centro de alumnos o cargo dentro de su curso? ¿Cuál?:</b>
+                        <b>En su etapa escolar, ¿Alguna vez  perteneció a algún centro de alumnos o cargo dentro de su curso? ¿Cuál?:</b>
 			<br> <br>
 			<input type=radio name="pregunta13" value="1" checked="checked">a) Presidente del curso /centro de alumnos o delegado. <br>
 			<input type=radio name="pregunta13" value="0">b)	Secretario o tesorero.<br>

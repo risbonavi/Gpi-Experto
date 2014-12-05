@@ -39,7 +39,7 @@ session_start();
 			<br>
                         
             <div class="preguntas">
-                        <b>Una pareja de pololos, que además son amigos tuyos tienen una pelea y deciden terminar su relación amorosa, cada uno por su lado triste, se acerca a tí para hablar  de lo sucedido y te cuentan su respectiva versión de los hechos. ¿Que harás tú ante esta situación planteada?</b>  			
+                        <b>Una pareja de pololos, que además son amigos tuyos tienen una pelea y deciden terminar su relación amorosa, cada uno por su lado triste, se acerca a tí para hablar  de lo sucedido y te cuentan su respectiva versión de los hechos. ¿Que harías ante esta situación planteada?</b>  			
 			<br> <br>
 			<input type=radio name="pregunta30" value="0" checked="checked"> a) Decides marginarte del problema, ya que como dice el dicho: mejor no meterse en peleas de pareja.<br>
 			<input type=radio name="pregunta30" value="0"> b) Piensas en ayudarlos, pero sabes que ellos siempre pelean, terminan y vuelven finalmente, así que dejas que se arreglen sus diferencias ellos.<br>
@@ -67,7 +67,7 @@ session_start();
 			<br>
                         
 			<div class="preguntas">
-                        <b>Usted tiene planificado una junta con uno de sus amigos, pero ocurre un pequeño problema, usted se ha quedado dormido, por lo visto usted no llegaría a la hora y es probable también que no alcance a llegar.¿Que haría usted en esta situación?</b>
+                        <b>Usted tiene planificado una junta con uno de sus amigos, pero ocurre un pequeño problema, se ha quedado dormido y por lo visto  no llegaría a la hora, además es probable también que no alcance a llegar.¿Que haría en esta situación?</b>
 			<br> <br>
 			<input type=radio name="pregunta50" value="0" checked="checked"> No me preocupo por mi amigo y lo dejo plantado.<br>
 			<input type=radio name="pregunta50" value="0">Pienso en llamarlo pero, sé que me esperara así que no lo hago.<br>

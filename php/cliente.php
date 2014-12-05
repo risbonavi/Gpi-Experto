@@ -32,7 +32,7 @@ session_start();
          	<form method="POST" action="">
 			
 			<div class="preguntas">
-			<b>1) Una empresa está tomando decisiones de si continuar con el rubro en el que se encuentra, y usted puede ayudar con la decisión, cual elegiría:</b><br> <br>
+			<b>1) Una empresa está tomando decisiones de si continuar con el rubro en el que se encuentra, y usted puede ayudar con la decisión, cuál elegiría:</b><br> <br>
 			<input type=radio name="pregunta1" value="20" checked="checked">a)	Se cambia de rubro a pesar de los riesgos, despidiendo a todo el personal y contratando a gente nueva para su nuevo rubro.<br>
 			<input type=radio name="pregunta1" value="10">b)	Se cambia y conserva el personal en el nuevo rubro.<br>
 			<input type=radio name="pregunta1" value="5">c)	Prefiere no tomar la decisión, la delega.<br>
@@ -40,7 +40,7 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			<b>2) Usted va caminando por la calle y esta en presencia de un accidente, ¿Usted que haría?</b><br><br>
+			<b>2) Usted va caminando por la calle y esta en presencia de un accidente, ¿Qué haría?</b><br><br>
 			<input type=radio name="pregunta2" value="10" checked="checked">a)	Pide ayuda rápidamente y espera instrucciones de la autoridad.<br>
 			<input type=radio name="pregunta2" value="5">b)	Llama a un amigo que sabe qué hacer en estas situaciones, para que realice las gestiones.<br>
 			<input type=radio name="pregunta2" value="20">c)	Pide ayuda y coordina que la gente no se acerque y moleste a los lesionados.<br>
@@ -48,7 +48,7 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			<b>3) En la situación cuando algo no le parece correcto o va en contra de sus creencias o principios:</b>
+			<b>3) En una situación cuando algo no le parece correcto o vá en contra de sus creencias o principios:</b>
 			<br><br>
 			<input type=radio name="pregunta3" value="20" checked="checked">a)	Sueles hablarlo y discutirlo con las personas responsables.<br>
 			<input type=radio name="pregunta3" value="10">b)	Prefieres no hacer nada para ahorrarte problemas.<br>
@@ -57,7 +57,7 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			<b>4) Si se le presenta a usted un proyecto, que le fuera beneficioso, ¿Qué decisión tomaría?</b><br><br>
+			<b>4) Si ha ustéd se le presenta un proyecto, que le fuera beneficioso, ¿Qué decisión tomaría?</b><br><br>
 			
 			<input type=radio name="pregunta4" value="10" checked="checked">a) Se asesoraría con personas expertas en el tema antes de tomar un decisión.<br>
 			<input type=radio name="pregunta4" value="20">b) Tomaría el riesgo de tomar el proyecto sólo de acuerdo a sus experiencias previas.<br>
@@ -74,7 +74,7 @@ session_start();
 			
 			<br>
 			<div class="preguntas">
-			<b>6) ¿Usted cree que las empresas funcionen mejor mediante métodos y protocolos pre establecidos, de carácter autoritario?</b>
+			<b>6) ¿Usted cree que las empresas funcionen mejor mediante métodos y protocolos pre establecidos de carácter autoritario?</b>
 			<br><br>
 			<input type=radio name="pregunta6"  value="5" checked="checked">a)	Funcionan mejor pero reduce el ambiente laboral.<br>
 			<input type=radio name="pregunta6" value="10">b)	Funcionan pero muchas veces causan problemas de comunicación.<br>

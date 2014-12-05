@@ -33,7 +33,7 @@ session_start();
 			
 			<!--Flexible 3 ok-->
 			<div class="preguntas">
-			 <strong>¿Alguna vez haz  viajado mochileando?</strong><br> <br>
+			 <strong>¿Alguna véz haz  viajado mochileando?</strong><br> <br>
 			<input type=radio name="pregunta37" value="0" checked="checked">a)	No me atrevo a hacerlo, me gusta organizar bien mis viajes.	<br>
 			<input type=radio name="pregunta37" value="1">b)	Si lo he hecho, me gusta la idea de no saber cómo llegare a mi destino.<br>
 			<input type=radio name="pregunta37" value="0">c)	Aun no lo hago, pero tengo intenciones de hacerlo pronto.	<br>
@@ -60,7 +60,7 @@ session_start();
 			
 			<!--Mandatario 3 ok-->
 			<div class="preguntas">
-			 <strong>Estas a cargo de un proyecto, ¿cuál es tu forma de decidir la manera en que lo harán?</strong>
+			 <strong>Estás a cargo de un proyecto, ¿Cuál es tu forma de decidir la manera en que lo harán?</strong>
 			<br> <br>
 			<input type=radio name="pregunta45" value="0" checked="checked">a) Lo discutimos entre todos y elegimos cual es la mejor idea.<br>
 			<input type=radio name="pregunta45" value="1">b) Sí cómo abordarlo, le informo a mi grupo de trabajo la forma en que lo haremos.<br>
@@ -69,12 +69,12 @@ session_start();
 			<br>
                         
             <div class="preguntas">
-			 <strong>En la asociación de fútbol en que usted participa sus compañeros y demás socios lo postulan como el candidato ideal para que usted dirige el club. ¿Cual es la actitud que tomaría?</strong>
+			 <strong>En la asociación de fútbol en que ustéd participa sus compañeros y demás socios lo postulan como el candidato ideal para que dirija el club. ¿Cuál es la actitud que tomaría?</strong>
 
 			<br> <br>
-			<input type=radio name="pregunta46" value="0" checked="checked">a) Usted rechazaria el puesto ya que tiene dudas de como poder ejercer su cargo.<br>
-			<input type=radio name="pregunta46" value="0">b) Usted acepta el puesto pero siempre y cuando exista unanimidad total.<br>
-			<input type=radio name="pregunta46" value="1">c) Usted toma las riendas del asunto y defiende su idea hasta todo.<br>
+			<input type=radio name="pregunta46" value="0" checked="checked">a) Ustéd rechazaría el puesto ya que tiene dudas de como poder ejercer su cargo.<br>
+			<input type=radio name="pregunta46" value="0">b) Ustéd acepta el puesto pero siempre y cuando exista unanimidad total.<br>
+			<input type=radio name="pregunta46" value="1">c) Ustéd toma las riendas del asunto y defiende su idea hasta todo.<br>
 			</div>
 			<br>
                         
@@ -90,7 +90,7 @@ session_start();
 
 			<!Responsable 3 ok>
 			<div class="preguntas">
-			 <strong>Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntaran en cierta estación del metro:</strong>
+			 <strong>Cuando te vas a juntar con tus amigos para salir un sábado por la noche, y quedan de acuerdo en que se juntarán en cierta estación del metro:</strong>
 			<br> <br>
 			<input type=radio name="pregunta49" value="0" checked="checked">a) Eres el primero en llegar, llegas a la hora acordada.<br>
 			<input type=radio name="pregunta49" value="1">b)	No llegaras a la hora, pero avisas que estas atrasado.<br>
@@ -99,7 +99,7 @@ session_start();
 			<br>
                         
 			<div class="preguntas">
-			 <strong>Usted tiene planificada una junta con uno de sus amigos, pero ocurre un pequeño problema, usted se ha quedado dormido, por lo visto usted no llegaría a la hora.¿ Que haría usted en esta situación?</strong>
+			 <strong>Usted tiene planificada una junta con uno de sus amigos, pero ocurre un pequeño problema, se ha quedado dormido, por lo visto no llegaría a la hora.¿ Que haría en esta situación?</strong>
 			<br> <br>
 			<input type=radio name="pregunta50" value="0" checked="checked"> No me preocupo por mi amigo y lo dejo plantado.<br>
 			<input type=radio name="pregunta50" value="0">Pienso en llamarlo pero, sí que me esperara así que no lo hago.<br>

@@ -30,19 +30,19 @@ session_start();
          	<form method="POST" action="">
 
 			<div class="preguntas">
-			 <strong>Frente a un problema que lo afecte en su vida diaria como actual</strong>
+			 <strong>Frente a un problema que lo afecte en su vida diaria ¿Cómo actúa?</strong>
 			<br> <br>
-			<input type=radio name="pregunta18" value="1" checked="checked">a) Trata de resolver el problema rapidamente.<br>
-			<input type=radio name="pregunta18" value="0">b)	Entinede las causas antes de resolverlo.<br>
+			<input type=radio name="pregunta18" value="1" checked="checked">a) Trata de resolver el problema rápidamente.<br>
+			<input type=radio name="pregunta18" value="0">b)	Entiende las causas antes de resolverlo.<br>
 			<input type=radio name="pregunta18" value="0">c)	Evade los problemas.<br>
 			</div>
 			<br>
 			
 			<div class="preguntas">
-			 <strong>Que opina sobre el crecimiento de la comunidad Haitiana en Chile</strong>
+			 <strong>¿Qué opina sobre el crecimiento de la comunidad Haitiana en Chile?</strong>
 			<br> <br>
-			<input type=radio name="pregunta19" value="1" checked="checked">a) Esta bien se les ayuda para que tengan una vida mejor.<br>
-			<input type=radio name="pregunta19" value="0">b)	No me gusta, existe menos trabajo y opurtunidades para las personas cchilenas.<br>
+			<input type=radio name="pregunta19" value="1" checked="checked">a) Está bien, se les ayuda para que tengan una vida mejor.<br>
+			<input type=radio name="pregunta19" value="0">b)	No me gusta, existe menos trabajo y opurtunidades para las personas chilenas.<br>
 			<input type=radio name="pregunta19" value="0">c)	Me es indiferente<br>
 			</div>
 			<br>
@@ -50,35 +50,35 @@ session_start();
 			<div class="preguntas">
 			 <strong>¿Cree en el destino?</strong>
 			<br> <br>
-			<input type=radio name="pregunta20" value="1" checked="checked">a)Si, todo esta enlazado de algun modo <br>
-			<input type=radio name="pregunta20" value="0">b)	Si, Dios dirige todo<br>
+			<input type=radio name="pregunta20" value="1" checked="checked">a)Sí, todo esta enlazado de algun modo <br>
+			<input type=radio name="pregunta20" value="0">b)	Sí, Dios dirige todo<br>
 			<input type=radio name="pregunta20" value="0">c)	No, cada uno crea su destino.<br>
 			</div>
 			<br>
 			
 			<!--Desarrollador 3 ok-->
 			<div class="preguntas">
-			 <strong>Si tuviera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avansa al mismo ritmo siendo que se esfuerza igual que los demás, que haría usted:</strong>
+			 <strong>Si tuviera a cargo un  grupo de trabajo y observa que uno de los parcipantes no avanza al mismo ritmo siendo que se esfuerza igual que los demás, ¿Que haría ustéd?</strong>
 			<br> <br>
 
-			<input type=radio name="pregunta21" value="1" checked="checked">a) Lo despide<br>
-			<input type=radio name="pregunta21" value="0">b) Le brinda apoyo e incentiva a seguir<br>
-			<input type=radio name="pregunta21" value="0">c) Le da un utimatum<br>
+			<input type=radio name="pregunta21" value="1" checked="checked">a) Lo despide.<br>
+			<input type=radio name="pregunta21" value="0">b) Le brinda apoyo e incentiva a seguir.<br>
+			<input type=radio name="pregunta21" value="0">c) Le da un ultimatum.<br>
 			</div>
 			<br>
 			
                         
             <div class="preguntas">
-			 <strong>Se te hace fácil reconocer el potencial de quienes te rodean, por eso:</strong>
+			 <strong>Se le hace fácil reconocer el potencial de quiénes lo rodean, por eso:</strong>
 			<br> <br>
-			<input type=radio name="pregunta22" value="1" checked="checked">a)	Les recomiendas que sigan así, se enfoquen en un único objetivo para lograr desarrollarse mejor. <br>
+			<input type=radio name="pregunta22" value="1" checked="checked">a)	Les recomienda que sigan así, se enfoquen en un único objetivo para lograr desarrollarse mejor. <br>
 			<input type=radio name="pregunta22" value="0">b)		Los orientas a que exploren distintas áreas.<br>
 			<input type=radio name="pregunta22" value="0">c)		Los motivas para que enfrenten nuevos desafíos que los harán desarrollarse. <br>
 			</div>
 			<br>
                         
             <div class="preguntas">
-			 <strong>Un dia vas caminando por la calle y ves un anuncio que es saltar en paracaida de un avión en conjunto de tus amigos a un precio imperdible. ¿Que haces?</strong>
+			 <strong>Un día vas caminando por la calle y ves un anuncio que es saltar en paracaida de un avión en conjunto con tus amigos a un precio imperdible. ¿Qué haces?</strong>
 
 			<br> <br>
 			<input type=radio name="pregunta23" value="1" checked="checked">a) Piensas en llamar a tus amigos pero lo conoces  y sabes que no le gustan este tipo de actividades <br>
@@ -93,7 +93,7 @@ session_start();
 			<!--Disiplinado 3 ok-->
 			<div class="preguntas">
 
-			 <strong>Cuando realizas una fiesta en tu casa, la mejor forma de hacerla es:</strong>
+			 <strong>Cuándo realizas una fiesta en tu casa, la mejor forma de hacerla es:</strong>
 			<br> <br>
 			<input type=radio name="pregunta25" value="0" checked="checked">a) Siempre es mejor improvisar las fiestas, si se planean no resulta como quiero.<br>
 			<input type=radio name="pregunta25" value="0">b)	La organizo unos días antes, no requiero de mucho tiempo para tener todo en orden.<br>
@@ -111,7 +111,7 @@ session_start();
 			<br>
                         
             <div class="preguntas">
-			 <strong>Cuando te vas de vacaciones, y llegas a una casa en la playa que te presto un familiar , y la encuentras sucia y desordenada, usted:</strong>
+			 <strong>Cuando se vá de vacaciones, llegas a una casa en la playa que te prestó un familiar, y la encuentra sucia y desordenada, ustéd:</strong>
 			<br> <br>
 			<input type=radio name="pregunta27" value="0" checked="checked">a) Te instalas y descansas antes de ordenar y limpiar.<br>
 			<input type=radio name="pregunta27" value="1">b) Ordenas y limpias hasta que todo quede como querias y luego te acuestas.<br>
