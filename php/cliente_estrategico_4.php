@@ -127,7 +127,7 @@ session_start();
                         $flex = $_GET['flex'];
                         
 							
-			            echo "<script language='JavaScript'>location = 'resultados.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$fut&flex=$flex&man=$mandatario&res=$responsable'</script>";
+			            echo "<script language='JavaScript'>location = 'resultados_estrategico.php?ana=$ana&comp=$comp&emp=$emp&com=$com&fut=$fut&flex=$flex&man=$mandatario&res=$responsable'</script>";
 
 		}?>
                
