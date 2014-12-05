@@ -155,7 +155,7 @@ session_start();
 						
 						$conector = $p1;
 						
-			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?anali=$analitico&competi=$competitivo&conect=$conector'</script>";
+			echo "<script language='JavaScript'>location = 'cliente_tactico_1.php?anali=$analitico&competi=$competitivo&conect=$conector'</script>";
 		
 		?>
 	</div>

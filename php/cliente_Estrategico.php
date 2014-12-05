@@ -131,7 +131,7 @@ session_start();
                         $competitivo = $p1+$p2+$p3+$p4;
                         
 						
-			echo "<script language='JavaScript'>location = 'cliente_tactico_1.php?ana=$analitico&comp=$competitivo'</script>";
+			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?ana=$analitico&comp=$competitivo'</script>";
       
 		}
                 

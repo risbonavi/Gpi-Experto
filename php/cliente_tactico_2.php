@@ -152,7 +152,7 @@ session_start();
                         
             $mandatario = $p1+$p2+$p3+$p4;
             
-			echo "<script language='JavaScript'>location = 'resultados.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado&flex=$flexible&manda=$mandatario'</script>";
+			echo "<script language='JavaScript'>location = 'resultados_tactico.php?anali=$analitico&competi=$competitivo&conect=$conector&des=$desarrollador&disci=$Disiplinado&flex=$flexible&manda=$mandatario'</script>";
 
              
 		}
