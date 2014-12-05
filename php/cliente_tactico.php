@@ -137,8 +137,25 @@ session_start();
                 }
                 
                 
-                if($analitico = true && $emprendedor = true && $desarrollador = true)
-                        $cargo ='Gerente';
+            $p1 = $_POST['pregunta1'];
+			$p2 = $_POST['pregunta2'];
+			$p3 = $_POST['pregunta3'];
+			$p4 = $_POST['pregunta4'];
+                        
+                        $analitico = $p1+$p2+$p3+$p4;
+						
+			$p1 = $_POST['pregunta9'];
+			$p2 = $_POST['pregunta10'];
+			$p3 = $_POST['pregunta11'];
+			$p4 = $_POST['pregunta12'];
+                        
+                        $competitivo = $p1+$p2+$p3+$p4;
+						
+			$p1 = $_POST['pregunta17'];
+						
+						$conector = $p1;
+						
+			echo "<script language='JavaScript'>location = 'cliente_estrategico_2.php?anali=$analitico&competi=$competitivo&conect=$conector'</script>";
 		
 		?>
 	</div>
