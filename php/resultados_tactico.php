@@ -37,28 +37,27 @@ session_start();
             <div>
                 <?php
                 
-                        $ana = $_GET['ana'];
-                        $comp = $_GET['comp'];
-                        $emp = $_GET['emp'];
-                        $com = $_GET['com'];
-                        $fut = $_GET['fut'];
-                        $flex = $_GET['flex'];
-                        $res = $_GET['res'];
-                        $man = $_GET['man'];
+                        $ana = $_GET['anali'];//1
+                        $comp = $_GET['competi'];//3
+                        $con = $_GET['conect'];//5
+                        $com = $_GET['des'];//6
+                        $dis = $_GET['disci'];//7
+                        $flex = $_GET['flex'];//10
+                        $man = $_GET['manda'];//12
                         $cargo = 'Sin perfil para la empresa';
                         
-                   if($ana >= 3 && $comp >= 3 && $emp>=2 && $com >= 1 && $fut >= 2 && $flex >= 2 &&$res>=2 &&$man>=2)
-                                $cargo = 'Gerente General';
-                        if($ana >= 3 &&  $com >= 2 &&  $man >=2 && $res >= 2)
-                                $cargo = 'Gerente Administrativo';
-                        if($ana >= 3 && $comp >= 3 && $man >= 2 && $res >= 2)
-                                $cargo = 'Gerente Comercial';
-                        if($ana >= 3 && $comp >= 3 && $emp>=2 && $man >= 2 && $res >=2)
+                        if($ana >= 3  && $comp>=2 && $con>=2 && $flex >= 2 && $man >= 2 )
+                                $cargo = 'Jefe RRHH';
+                        if($con >= 3 &&  $flex >= 2 &&  $man >=2)
+                                $cargo = 'Jefe de Atención al cliente';
+                        if($ana >= 3 && $comp >= 2 && $dis >= 2 )
+                                $cargo = 'Representante de Ventas';
+                        if($ana >= 3 && $comp >= 2 && $emp>=2 && $man >= 2 && $res >=2)
                                 $cargo = 'Gerente Produccion';
-                        if($ana >= 3 &&  $man >= 2 && $res >= 2)
-                                $cargo = 'Gerente Finanzas';
-                        if($ana >= 3 &&  $com >= 2  && $flex >= 2 && $man >= 2 && $res >= 2)
-                                $cargo = 'Gerente RR.HH';
+                        if($ana >= 3 &&  $comp >= 2 && $com>=2 && $dis >= 2 && $man >= 2)
+                                $cargo = 'Supervisor de Planta';
+                        if($ana >= 3 &&  $dis >= 2)
+                                $cargo = 'Contador';
                         
                                 
                         
