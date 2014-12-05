@@ -111,7 +111,7 @@ session_start();
                         $arm = $_GET['arm'];
                         $dis = $_GET['dis'];
                         
-                        echo "<script language='JavaScript'>location = 'resultados.php?arm=$arm&dis=$dis&emp=$empatico&res=$responsable'</script>";
+                        echo "<script language='JavaScript'>location = 'resultados_operacional.php?arm=$arm&dis=$dis&emp=$empatico&res=$responsable'</script>";
 		}
                 
 		

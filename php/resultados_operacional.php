@@ -37,24 +37,23 @@ session_start();
             <div>
                 <?php
                 
-                        $ana = $_GET['arm'];
-                        $comp = $_GET['dis'];
-                        $emp = $_GET['emp'];
-                        $res = $_GET['res'];
+                        $arm = $_GET['arm'];//2
+                        $dis = $_GET['dis'];//7
+                        $emp = $_GET['emp'];//8
+                        $res = $_GET['res'];//13
                         $cargo = 'Sin perfil para la empresa';
                         
-                   /*if($ana >= 3 && $comp >= 3 && $emp>=2 && $com >= 1 && $fut >= 2 && $flex >= 2 &&$res>=2 &&$man>=2)
-                                $cargo = 'Gerente General';
-                        if($ana >= 3 &&  $com >= 2 &&  $man >=2 && $res >= 2)
-                                $cargo = 'Gerente Administrativo';
-                        if($ana >= 3 && $comp >= 3 && $man >= 2 && $res >= 2)
-                                $cargo = 'Gerente Comercial';
-                        if($ana >= 3 && $comp >= 3 && $emp>=2 && $man >= 2 && $res >=2)
-                                $cargo = 'Gerente Produccion';
-                        if($ana >= 3 &&  $man >= 2 && $res >= 2)
-                                $cargo = 'Gerente Finanzas';
-                        if($ana >= 3 &&  $com >= 2  && $flex >= 2 && $man >= 2 && $res >= 2)
-                                $cargo = 'Gerente RR.HH'; ARREGLAR SEGUN LOS NUMEROS PARA OPERACIONAL*/
+                   if($arm >= 3 && $dis >= 2 && $emp>=2 &&$res>=2)
+                                $cargo = 'Asistente RR.HH';
+                        if($arm >= 3 && $dis >= 2  &&$res>=2)
+                                $cargo = 'Diseñador de Moda';
+                       if( $dis >= 2  &&$res>=2)
+                                $cargo = 'Asistente Contador';
+                        if($arm >= 3  && $emp>=2 &&$res>=2)
+                                $cargo = 'Operario Control de Calidad';
+                        if($dis >= 2 && $emp>=2 &&$res>=2)
+                                $cargo = 'Ejecutivo atencion al cliente';
+
                         
                                 
                         
